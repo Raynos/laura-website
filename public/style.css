@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: 'MetroNovaPro-Bold',
-  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff') format('woff');
+  font-family: 'MetroNovaPro-Bold';
+  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff) format('woff');
 }
 
 body, html {
@@ -25,6 +25,14 @@ body, html {
   padding: 0;
 }
 
+.carousel-wrapper {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
 .logo {
   text-align: center;
 }
@@ -34,7 +42,7 @@ body, html {
 }
 
 .main {
-  height: 400px;
+  /* height: 400px; */
 }
 
 .about-wrapper {
@@ -108,4 +116,10 @@ body, html {
   width: 100px;
   height: 396px;
   background-color:e6edec;
+}
+
+
+
+.slick-prev:before, .slick-next:before {
+  color: #fcc800;
 }
