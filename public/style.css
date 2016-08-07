@@ -1,0 +1,111 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Book.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MetroNovaPro-Bold',
+  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff') format('woff');
+}
+
+body, html {
+  font-family: helvetica, arial, sans-serif;
+  /* margin: 25px; */
+  
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  height: 120px;  
+}
+
+.main {
+  height: 400px;
+}
+
+.about-wrapper {
+  text-align: center;
+}
+
+.icons-wrapper {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  font-family: 'CircularStd-Book';
+  color: #5dcfb6;
+  width: 350px;
+}
+
+.email-phone {
+  float: left;
+}
+
+.facebook-instagram {
+  float: right;
+}
+
+.email, .phone, .facebook, .instagram {
+  display: block;
+  vertical-align: middle;
+}
+
+.email span, .phone span, .facebook span, .instagram span {
+  /* float: top; */
+  margin-top: 2px;
+  display: inline-block;
+  height: 20px;
+  vertical-align: top;
+}
+
+.phone, .instagram {
+  margin-top: 6px;
+}
+
+.email-icon, .facebook-icon, .instagram-icon, .phone-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  
+  display: inline-block;
+}
+
+.phone-icon, .facebook-icon {
+  margin-left: 4px;
+}
+.instagram span, .email span {
+  margin-left: 4px;
+}
+
+.about {
+  display: inline-block;
+  color: #5dcfb6;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  font-family: 'MetroNovaPro-Bold';
+  
+  border-bottom: 3px solid #5dcfb6;
+}
+
+.rectangle {
+  width: 100px;
+  height: 396px;
+  background-color:e6edec;
+}
