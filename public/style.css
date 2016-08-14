@@ -19,14 +19,44 @@ body, html {
   /* margin: 25px; */
   
   width: 100%;
-  height: 100%;
+  height: calc(100% - 20px);
   margin: 0;
+  margin-top: 20px;
   border: 0;
   padding: 0;
 }
 
+.project {
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.main-image {
+  height: 300px;
+  width: 200px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.img-slide {
+  text-align: center;
+  height: 300px;
+}
+.img-wrapper {
+  /* border: 1px black solid; */
+  position: relative;
+  vertical-align: middle;
+}
+.img-slide img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
 .carousel-wrapper {
-  margin-top: 150px;
+  margin-top: 75px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -41,8 +71,8 @@ body, html {
   height: 120px;  
 }
 
-.main {
-  /* height: 400px; */
+.main, .project {
+  height: 400px;
 }
 
 .about-wrapper {
@@ -123,3 +153,4 @@ body, html {
 .slick-prev:before, .slick-next:before {
   color: #fcc800;
 }
+
