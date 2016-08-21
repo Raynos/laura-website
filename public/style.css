@@ -1,4 +1,4 @@
-/* styles */
+@/* styles */
 /* called by your view template */
 
 /* You might want to try something fancier: */
@@ -10,8 +10,22 @@
 }
 
 @font-face {
+  font-family: 'CircularStd-Bold';
+  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Bold.woff) format('woff')
+}
+
+@font-face {
   font-family: 'MetroNovaPro-Bold';
   src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MetroNovaPro-Regular';
+  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'CircularStd-BookItalic';
+  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-BookItalic.woff) format('woff');
 }
 
 body, html {
@@ -19,32 +33,361 @@ body, html {
   /* margin: 25px; */
   
   width: 100%;
-  height: calc(100% - 20px);
+  /*height: `calc(100% - 20px);*/
   margin: 0;
   margin-top: 20px;
   border: 0;
   padding: 0;
 }
 
-.project {
-  width: 500px;
-  height: 300px;
+.main {
+  height: 450px;
+  position: relative;
+}
+
+.about-main {
+  height: 495px;
+  position: relative;
+}
+
+/*
+ ********* ANIMATING TEXT **********
+ */
+
+.animating-text-content {
+  width:380px;
+  height:90px;
+}
+
+.animating-text-visible {
+  float:left;
+  font-weight:600;
+  overflow:hidden;
+  height:90px;   
+}
+
+.animating-text-visible p {
+  display:inline;
+  float:left;
+  margin:0;
+}
+
+.animating-text-visible ul {
+  margin-top:0;
+  padding-left:0px;
+  text-align:left;
+  list-style:none;
+  animation: 12s linear 0s normal none infinite change;
+  -webkit-animation: 12s linear 0s normal none infinite change;
+  -moz-animation: 12s linear 0s normal none infinite change;
+  -o-animation: 12s linear 0s normal none infinite change;
+}
+
+.animating-text-visible ul li {
+  line-height: 90px;
+  text-align: center;
+  margin:0;
+}
+
+@keyframes change {
+  0%   {margin-top:0;}
+  7%   {margin-top:0;}
+  
+  12%  {margin-top: -90px;}
+  18%  {margin-top: -90px;}
+
+  25%  {margin-top:-180px;}
+  32%  {margin-top:-180px;}
+  
+  37%  {margin-top: -270px;}
+  44%  {margin-top: -270px;}
+
+  50%  {margin-top:-360px;}
+  57%  {margin-top:-360px;}
+  
+  62%  {margin-top:-270px;}
+  69%  {margin-top:-270px;}
+
+  75%  {margin-top:-180px;}
+  82%  {margin-top:-180px;}
+  
+  87%  {margin-top: -90px;}
+  94%  {margin-top: -90px;}
+  
+  100% {margin-top:0;}
+}
+
+
+/*
+ ******** ABOUT *************
+ */
+ 
+.left-photo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -550px;
+  height: 341px;
+  width: 255px;
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FPolaroid2-deviate-design.png");
+}
+.right-photo {
+  height: 227px;
+  width: 171px;
+  position: absolute;
+  top: 300px;
+  right: 50%;
+  margin-right: -500px;
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FPolaroid1-deviate-design.png");
+}
+ 
+.is {
+  margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  letter-spacing: 0.05em;
+  
+  font-size: 20px;
+  color: #fcc800;
+  font-family: 'MetroNovaPro-Regular';
 }
-.main-image {
-  height: 300px;
-  width: 200px;
+
+.focus-word {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  width: 380px;
+  /* padding-top: 24px; */
+  /* padding-bottom: 24px; */
+  letter-spacing: 0.05em;
+  
+  border-top: 2px solid #fcc800;
+  border-bottom: 2px solid #fcc800;
+  
+  color: #fcc800;
+  font-size: 50px;
+  font-family: 'CircularStd-Bold';
+}
+
+.information {
+  margin-top: 70px;
+  margin-bottom: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.wessel {
+  font-family: 'MetroNovaPro-Bold';
+  font-size: 15px;
+  float: left;
+  width: 300px;
+  text-align: right;
+}
+
+.laura {
+  font-family: 'MetroNovaPro-Bold';
+  font-size: 15px;
+  float: left;
+  width: 300px;
+  text-align: left;
+}
+.university {
+  font-family: 'CircularStd-BookItalic';
+  font-size: 11px;
+  float: left;
+  width: 300px;
+  letter-spacing: 0.08em;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.birth-place {
+  font-family: 'CircularStd-BookItalic';
+  font-size: 11px;
+  float: left;
+  width: 300px;
+  letter-spacing: 0.08em;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.hobbies {
+  font-family: 'CircularStd-BookItalic';
+  font-size: 11px;
+  float: left;
+  width: 300px;
+  letter-spacing: 0.08em;
+  line-height: 150%;
+}
+
+.person-and {
+  margin-bottom: 20px;
+}
+
+.uni-icon {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fachievement-icon-deviate-design.png");
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+.baby-icon {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fbaby-icon-deviate-design.png");
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 10px;
+}
+
+.heart-icon {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fheart-icon-deviate-design.png");
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+.icons {
+  font-family: 'MetroNovaPro-Regular';
+  font-size: 15px;
+  float: left;
+  width: 100px;
+  text-align: center;
+}
+
+.person-name {
+  color: #5dcfb6;
+  margin-bottom: 20px;
+}
+
+.icons {
+  color: #fcc800;
+}
+
+
+/*
+ ******** PROJECT ***************
+ */
+
+.project {
+  width: 925px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* position: relative; */
+}
+.project .project-image {
+  float: left;
+  height: 400px;
+  width: 614px;
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
 }
 
+
+
+.active-project {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: calc(-925px / 2);
+  background-color: white;
+  /* margin-right: auto; */
+  /* right: auto; */
+}
+
+.project-carousel {
+  height: 100%;
+  width: 875px;
+}
+
+.project-slide {
+  height: 100%;
+}
+
+.close-project {
+  height: 28px;
+  width: 28px;
+  right: -70px;
+  top: 0;
+  position: absolute;
+}
+
+.close-button {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FcrossDark.png");
+  height: 28px;
+  width: 28px;
+}
+
+.close-button:hover {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fcross.png");
+}
+
+.project-text {
+  position: absolute;
+  right: 38px;
+  top: 2px;
+  width: calc(260px - 19px - 19px);
+  height: 396px;
+  float: left;
+  background-color: #e6edec;
+  display: inline-block;
+  text-align: left;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.project-text .text-content {
+  position: absolute;
+  margin-right: 30px;
+  bottom: 7px;
+}
+
+.text-content i {
+  font-family: 'CircularStd-BookItalic;
+}
+
+.text-content h3 {
+  font-size: 12px;
+  margin-bottom: 4px;
+  margin-top: 6px;
+}
+
+.text-content h2 {
+  font-size: 20px;
+  font-family: 'MetroNovaPro-Bold';
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.text-content p {
+  font-size: 12px;
+  font-family: 'CircularStd-Book';
+}
+
+
+
+
+/*
+ ****************** IMG SLIDE ***************
+ */
+
 .img-slide {
   text-align: center;
-  height: 300px;
+  height: 400px;
 }
+
+.img-slide:focus {
+  outline: none;
+}
+
 .img-wrapper {
   /* border: 1px black solid; */
   position: relative;
@@ -64,6 +407,10 @@ body, html {
   width: 960px;
 }
 
+/*
+ **************** LOGO HEADER *************************
+ */
+
 .logo {
   text-align: center;
 }
@@ -72,12 +419,24 @@ body, html {
   height: 120px;  
 }
 
-.main, .project {
-  height: 400px;
-}
+
+/*
+ ******************** ABOUT SECTION *************
+ */
 
 .about-wrapper {
+  margin-top: 20px;
   text-align: center;
+}
+
+.about {
+  display: inline-block;
+  color: #5dcfb6;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  font-family: 'MetroNovaPro-Bold';
+  border-bottom: 3px solid #5dcfb6;
+  
 }
 
 .icons-wrapper {
@@ -133,25 +492,29 @@ body, html {
   margin-left: 4px;
 }
 
-.about {
-  display: inline-block;
-  color: #5dcfb6;
-  font-size: 14px;
-  letter-spacing: 0.07em;
-  font-family: 'MetroNovaPro-Bold';
-  
-  border-bottom: 3px solid #5dcfb6;
-}
-
-.rectangle {
-  width: 100px;
-  height: 396px;
-  background-color:e6edec;
-}
-
-
-
-.slick-prev:before, .slick-next:before {
+.about:hover { 
   color: #fcc800;
 }
+.email:hover {
+ color: #fcc800;
+}
 
+.phone:hover {
+ color: #fcc800;
+}
+
+.facebook:hover {
+ color: #fcc800;
+}
+
+.instagram:hover {
+ color: #fcc800;
+}
+
+
+/*************** ABOUT PAGE ***************/
+
+/* .slick-prev:before, .slick-next:before {
+  color: #fcc800;
+}
+*/

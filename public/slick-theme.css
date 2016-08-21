@@ -130,7 +130,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -55px;
+    bottom: -48px;
 
     display: block;
 
@@ -142,6 +142,11 @@
 
     text-align: center;
 }
+
+.project-carousel .slick-dots {
+  left: 25px;
+}
+
 .slick-dots li
 {
     position: relative;

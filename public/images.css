@@ -32,14 +32,44 @@
 .active-img.wayfare {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWayfare2.png");
 }
-.active-img.wayfare:hover, .main-image.wayfare {
+.active-img.wayfare:hover {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWayfare0.png");
+  
+
 }
-
-
-
-
-
+.wayfare-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1Wayfare_1.png");
+}
+.wayfare-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2Wayfare_2.png");
+}
+.wayfare-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3Wayfare_3.png");
+}
+.wayfare-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4Wayfare_4.png");
+}
+.wayfare-image.fifth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5Wayfare_5.png");
+}
+.wayfare-image.sixth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F6Wayfare_6.png");
+}
+.wayfare-image.seventh-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F7Wayfare_7.png");
+}
+.wayfare-image.eight-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F8Wayfare_8.png");
+}
+.wayfare-image.nineth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F9Wayfare_9.png");
+}
+.wayfare-image.tenth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F10Wayfare_10.png");
+}
+.wayfare-image.eleventh-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F11Wayfare_11.png");
+}
 
 .stamps {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps.png");
@@ -55,6 +85,21 @@
 }
 
 
+.stamps-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps_2.png");
+}
+.stamps-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps_3.png");
+}
+.stamps-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps_4.png");
+}
+.stamps-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps_5.png");
+}
+.stamps-image.fifth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps_6.png");
+}
 
 
 

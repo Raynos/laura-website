@@ -20,6 +20,10 @@ app.get('/stamps', function (request, response) {
   response.sendFile(__dirname + '/views/stamps.html');
 });
 
+app.get('/about', function (request, response) {
+  response.sendFile(__dirname + '/views/about.html');
+});
+
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
