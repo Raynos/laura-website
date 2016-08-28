@@ -13,6 +13,7 @@ var PAGES = {
   metro: true,
   feed: true,
   logos: true,
+  space: true,
   alice: true
 }
 
@@ -51,6 +52,7 @@ function manageActivePage() {
   $(".carousel").delegate(".img-slide", "click", function onClick(ev) {
     var $elem = $(ev.target);
     var segmentType = findSegment($elem);
+    console.log('segmentType', segmentType);
     
     hideArrows();
     
@@ -60,6 +62,7 @@ function manageActivePage() {
     // $carousel.slick("slickPause");
     
     var $pageElem = $("." + segmentType + "-project");
+    console.log('showing project', $pageElem);
     $pageElem.addClass("active-project");
     $pageElem.removeClass("idle-project");
 
@@ -68,13 +71,13 @@ function manageActivePage() {
     // image fade animation time
     // $carousel.slick("slickSetOption", "speed", 1000);
     
-    $carousel.slick("slickPlay");
+    $carousel.slick("slickPause");
     
   });
   
   $(".project").delegate(".close-project", "click", function onClick2(ev) {
     var $elem = $(ev.currentTarget).parent();
-    console.log('parent', $elem);
+    // console.log('parent', $elem);
     
     var $carousel = $elem.find(".project-carousel");
     $carousel.slick("slickPause");
@@ -103,9 +106,9 @@ $(function() {
   $(".project-carousel").slick({
     slidesToShow: 1,
     // hack do not change lolol.
-    speed: 100,
+    speed: 500,
     fade: true,
-    autoplay: true,
+    // autoplay: true,
     // hack do not change lolol.
     autoplaySpeed: 100,
     cssEase: 'linear',
@@ -118,7 +121,6 @@ $(function() {
   manageActivePage();
   
 });
-
 
 function setupActiveImageClass() {
   $(".carousel").on("beforeChange", function (ev, slick, currentIndex, nextIndex) {

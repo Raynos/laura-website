@@ -116,6 +116,9 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FChromiumtech0.png");
 }
 
+.chromiumtech-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1-Chromium-Tech-Deviate-Design.png");
+}
 
 
 
@@ -133,6 +136,18 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman0.png");
 }
 
+.oman-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_Discover_Oman_Deviate_Design.png");
+}
+.oman-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2_Discover_Oman_Deviate_Design.png");
+}
+.oman-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3_Discover_Oman_Deviate_Design.png");
+}
+.oman-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_Discover_Oman_Deviate_Design.png");
+}
 
 
 
@@ -150,7 +165,21 @@
 }
 
 
-
+.nsj-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_North_Sea_Jazz_Poster_Deviate_Design.png");
+}
+.nsj-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2_North_Sea_Jazz_Poster_Deviate_Design.png");
+}
+.nsj-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3_North_Sea_Jazz_Poster_Deviate_Design.png");
+}
+.nsj-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_North_Sea_Jazz_Poster_Deviate_Design.png");
+}
+.nsj-image.fifth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_North_Sea_Jazz_Poster_Deviate_Design.png");
+}
 
 .metro {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNova3.png");
@@ -165,6 +194,21 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNova0.png");
 }
 
+.metro-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_Metro_Nova_Deviate_Design.png");
+}
+.metro-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2_Metro_Nova_Deviate_Design.png");
+}
+.metro-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3_Metro_Nova_Deviate_Design.png");
+}
+.metro-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_Metro_Nova_Deviate_Design.png");
+}
+.metro-image.fifth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_Metro_Nova_Deviate_Design.png");
+}
 
 
 
@@ -196,6 +240,19 @@
   
 }
 
+.logos-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_All-about-Mini_Deviate_Design.png");
+}
+.logos-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2_Mijn-Eerste-Tandarts_Deviate_Design.png");
+}
+.logos-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3_Discover-Oman_Deviate_Design.png");
+}
+.logos-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_Hanneke-van-Oudheusden_Deviate_Design.png");
+}
+
 .alice {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice-in-Wonderland%20GSHS.png");
 }
@@ -207,4 +264,62 @@
 }
 .active-img.alice:hover {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice-10%20FCHS.png");
+}
+
+.alice-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2-Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3-Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4-Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.fifth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5-Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.sixth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F6-Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.seventh-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F7-Alice_in_Wonderland_Deviate_Design.png");
+}
+.alice-image.eight-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F8-Alice_in_Wonderland_Deviate_Design.png");
+}
+
+.space {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20GSHS.png");
+}
+.space:hover {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20GHHS.png");
+}
+.active-img.space {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20GHHS.png");
+}
+.active-img.space:hover {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20FCHS.png");
+}
+
+
+.space-image.first-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_A_Space_odyssey_Deviate_Design.png");
+}
+.space-image.second-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F2_A_Space_odyssey_Deviate_Design.png");
+}
+.space-image.third-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F3_A_Space_odyssey_Deviate_Design.png");
+}
+.space-image.fourth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_A_Space_odyssey_Deviate_Design.png");
+}
+.space-image.fifth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_A_Space_odyssey_Deviate_Design.png");
+}
+.space-image.sixth-image {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F6_A_Space_odyssey_Deviate_Design.png");
 }

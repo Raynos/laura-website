@@ -11,17 +11,23 @@ var app = express();
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
 
+app.set('view engine', 'ejs');
+
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function (request, response) {
-  response.sendFile(__dirname + '/views/index.html');
-});
-
-app.get('/stamps', function (request, response) {
-  response.sendFile(__dirname + '/views/stamps.html');
+  response.render('pages/index');
 });
 
 app.get('/about', function (request, response) {
-  response.sendFile(__dirname + '/views/about.html');
+  response.render('pages/about');
+});
+
+app.get('/what-we-do', function (request, response) {
+  response.render('pages/what-we-do');
+});
+
+app.get('/feed', function (request, response) {
+  response.render('pages/feed');
 });
 
 
