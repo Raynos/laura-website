@@ -1,31 +1,26 @@
-@/* styles */
-/* called by your view template */
-
-/* You might want to try something fancier: */
-/* less: http://lesscss.org/ */
-
 @font-face {
   font-family: 'CircularStd-Book';
-  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Book.woff) format('woff');
+  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Book.woff') format('woff');
 }
 
 @font-face {
   font-family: 'CircularStd-Bold';
-  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Bold.woff) format('woff');
+  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CircularStd-BookItalic';
+  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-BookItalic.woff') format('woff');
 }
 
 @font-face {
   font-family: 'MetroNovaPro-Bold';
-  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff) format('woff');
+  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'MetroNovaPro-Regular';
-  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Regular.woff) format('woff');
-}
-@font-face {
-  font-family: 'CircularStd-BookItalic';
-  src: url(https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-BookItalic.woff) format('woff');
+  src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Regular.woff') format('woff');
 }
 
 body, html {
@@ -364,8 +359,6 @@ body, html {
   left: 100px;
 }
 
-.
-
 
 /*
  ******** ABOUT *************
@@ -373,7 +366,7 @@ body, html {
  
 .left-photo {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 50%;
   margin-left: -550px;
   height: 340px;

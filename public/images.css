@@ -207,24 +207,24 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_Metro_Nova_Deviate_Design.png");
 }
 .metro-image.fifth-image {
-  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_Metro_Nova_Deviate_Design.png");
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F6_Metro_Nova_Deviate_Design.png");
 }
 
 
 
 .feed {
-  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FFeed%20GSHS.png");
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedGS.png");
 }
 .feed:hover {
-  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FFeed%20GHHS.png");
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedG50S.png");
 }
 .active-img.feed {
-  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FFeed%20GHHS.png");
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedG50S.png");
 }
-.active-img.feed:hover {
-  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FFeed%20FCHS.png");
-  
+.active-img.feed:hover, {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedSS.png");
 }
+
 
 .logos {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMET-Logo%20GSHS.png");
