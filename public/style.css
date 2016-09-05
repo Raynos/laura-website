@@ -27,12 +27,22 @@ body, html {
   font-family: helvetica, arial, sans-serif;
   /* margin: 25px; */
   
+  padding: 0;
+  
+  
   width: 100%;
   height: 100%;
   /*height: `calc(100% - 20px);*/
   margin: 0;
   border: 0;
-  padding: 0;
+  
+  overflow: auto;
+}
+
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
 }
 
 .project-main {
@@ -45,8 +55,6 @@ body, html {
   min-height: 300px;
   height: 60%;
   position: relative;
-  
-  overflow: auto;
 }
 
 .about-main {
@@ -819,9 +827,16 @@ margin-left: -730px; */
   height: 100%;
 }
 
+@media screen and ( min-height: 900px ){
+  .carousel-wrapper {
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+}
+
 .carousel-wrapper {
-  padding-top: 75px;
-  padding-bottom: 50px;
+  /* padding-top: 75px;
+  padding-bottom: 50px; */
   
   height: 400px;
   /* position: absolute; */
@@ -831,7 +846,8 @@ margin-left: -730px; */
   margin-left: auto;
   margin-right: auto;
   min-width: 900px;
-  max-width: 75%;
+  width: 75%;
+  max-width: 1080px;
 }
 
 /*
