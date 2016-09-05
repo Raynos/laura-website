@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project metro-project">
+        <div class="close-project"><a href="/?project=metro"><div class="close-button"></div></a></div>
+        <div class="project-carousel metro-carousel">
+          <div class="project-slide"><div class="project-image metro-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image metro-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image metro-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image metro-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image metro-image fifth-image">
+            <!-- <img src="https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_Metro_Nova_Deviate_Design.png" /> -->
+          </div></div>        
+          </div>
+        <div class="project-text metro-text">
+          <div class="text-content">
+            <h2>METRO NOVA <br> TYPE SPECIMEN</h2>
+            <p>The Metro Nova Type Specimen concept is based around the quote <br> "A masterpiece lost, found and reimagined". 
+
+The user has to discover the letter forms themselves by matching up the two sets of cards. Each card showcases a letter of the alphabet in one of the 26 weights. 
+</p>
+          </div>
+          
+                <%- include('../project-links', {
+            prev: '/discover-oman-identity',
+            next: '/wayfare-magazine'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

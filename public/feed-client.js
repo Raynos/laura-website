@@ -1,16 +1,14 @@
 $(function() {
   $('.stupid-carousel').slick({
     slidesToShow: 1,
-    // hack do not change lolol.
-    speed: 1000,
-    // fade: true,
+    speed: 500,
+    fade: true,
     autoplay: true,
-    // hack do not change lolol.
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     cssEase: 'linear',
-    variableWidth: true,
+    pauseOnHover: false,
     slidesToScroll: 1,
-    dots: true,
+    dots: false,
     arrows: false
   })
 
@@ -32,5 +30,14 @@ function manageFeedPages() {
     
     $elem.removeClass('active-feed-section');
     $next.addClass('active-feed-section');
+    
+    if ($elem.hasClass('video-feed')) {
+      setTimeout(function tickleIt() {
+        // $(".stupid-carousel").slick("slickPause");
+        $(".stupid-carousel").slick("slickGoTo", 1, true);
+        $(".stupid-carousel").slick("slickGoTo", 0, true);
+        // $(".stupid-carousel").slick("slickPlay");  
+      }, 10);
+    }
   });
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project nsj-project">
+        <div class="close-project"><a href="/?project=nsj"><div class="close-button"></div></a></div>
+        <div class="project-carousel nsj-carousel">
+         <div class="project-slide"><div class="project-image nsj-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image nsj-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image nsj-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image nsj-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image nsj-image fifth-image"></div></div>
+        </div>
+        <div class="project-text nsj-text">
+          <div class="text-content">
+            
+            <h2>NORTH SEA <br> JAZZ FESTIVAL</h2>
+            <h3> Artposter</h3>
+            <p>Jazz is unpredictable and jazz is well thought out. Jazz is abstract and jazz <br> is clear. This photographic poster shows the special contrasting elements of the music. <br> <br>
+            The design was part of a yearly design brawl for the North Sea Jazz festival <br> in Rotterdam and was displayed among other competitors during an exhibition beforehand. </p>
+          </div>
+          
+          
+                <%- include('../project-links', {
+            prev: '/alice-in-wonderland',
+            next: '/2001-a-space-odyssey'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

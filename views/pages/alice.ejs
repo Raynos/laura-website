@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project alice-project">
+        <div class="close-project"><a href="/?project=alice"><div class="close-button"></div></a></div>
+        <div class="project-carousel alice-carousel">
+          <div class="project-slide"><div class="project-image alice-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image fifth-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image sixth-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image seventh-image"></div></div>
+          <div class="project-slide"><div class="project-image alice-image eight-image"></div></div>
+        </div>
+        <div class="project-text alice-text">
+          <div class="text-content">
+            <h2>ALICE IN WONDERLAND</h2>
+            <p> Experimental typographic book design for Alice's Adventures in Wonderland. <br> <br> 
+            Creating an intriguing physical reading experience by making use of techniques that digital technology lacks. 
+            The pages change size and colour, to portray Alice's physical and mental growth. 
+            The typography mirrors what is happening in the story. <br> <br> The design has no fixed rules, 
+            as anything can happen in Wonderland. </p>
+          </div>
+          
+           <%- include('../project-links', {
+            prev: '/logos',
+            next: '/north-sea-jazz-poster'
+          }) %>
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project space-project">
+        <div class="close-project"><a href="/?project=space"><div class="close-button"></div></a></div>
+        <div class="project-carousel space-carousel">
+          
+          <div class="project-slide"><div class="project-image space-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image space-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image space-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image space-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image space-image fifth-image"></div></div>
+          <div class="project-slide"><div class="project-image space-image sixth-image"></div></div>
+          
+        </div>
+        
+        <div class="project-text space-text">
+          <div class="text-content">
+            <h2> 2001: A SPACE ODYSSEY </h2>
+            <p>
+              
+              This project takes Stanley Kubricks Sci-fi movie <i>"2001: A Space Odyssey"</i> into a new dimension. 
+              Within the book, the movie is reimagined through a typographic interpretation of the original script 
+              from 1968. </br><i><b>(*tiny Spoiler alert*)</b></i> The design of the book features the shape of 
+              the black Monolith which shows itself to the apes at the start of the movie. 
+              Followed by it’s mighty descend, the typography within the large book translates 
+              various roles and illustrates situations from the script.</p>
+          </div>
+          
+                <%- include('../project-links', {
+            prev: '/north-sea-jazz-poster',
+            next: '/feed'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

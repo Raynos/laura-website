@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project logos-project">
+        <div class="close-project"><a href="/?project=logos"><div class="close-button"></div></a></div>
+        <div class="project-carousel logos-carousel">
+           <div class="project-slide"><div class="project-image logos-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image logos-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image logos-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image logos-image fourth-image"></div></div>
+        </div>
+        <div class="project-text logos-text">
+          <div class="text-content">
+            <h2>LOGO DESIGNS</h2>
+            <p> Various logos which we have designed after working closely with the following companies: <br> <br>
+            - All About Mini <br>
+            - Mijn Eerste Tandarts <br>
+            - Discover Oman <br>
+            - Hanneke van Oudheusden <br>
+    
+            
+            </p>
+          </div>
+          
+          <%- include('../project-links', {
+            prev: '/wayfare-magazine',
+            next: '/alice-in-wonderland'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project wayfare-project">
+        <div class="close-project">
+          <a href="/?project=wayfare"><div class="close-button"></div></a>
+        </div>
+        <div class="project-carousel wayfare-carousel">
+          
+          <div class="project-slide"><div class="project-image wayfare-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image fifth-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image sixth-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image seventh-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image eight-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image nineth-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image tenth-image"></div></div>
+          <div class="project-slide"><div class="project-image wayfare-image eleventh-image"></div></div>
+          
+        </div>
+        
+        <div class="project-text wayfare-text">
+          <div class="text-content">
+            <h2> WAYFARE </h2>
+            <p>
+              
+              Magazine from concept to finish.
+
+Wayfare, a travel and culture magazine. Each issue has a different theme, which will influence the design & colour scheme. This specific issue explores skylines. 
+
+Photography used on the cover, the hiding skyline spread, the change of perception spreads and the discover the Red Sea advert are our own. </p>
+          </div>
+          
+          <%- include('../project-links', {
+            prev: '/metro-nova-type-specimen',
+            next: '/logos'
+          }) %>
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

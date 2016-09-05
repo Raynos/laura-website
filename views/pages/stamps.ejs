@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project stamps-project">
+        <div class="close-project">
+          <a href="/?project=stamps"><div class="close-button"></div></a>
+        </div>
+        <div class="project-carousel stamps-carousel">
+          <div class="project-slide"><div class="project-image stamps-image zero-image"></div></div>
+          <div class="project-slide"><div class="project-image stamps-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image stamps-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image stamps-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image stamps-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image stamps-image fifth-image"></div></div>
+          
+        </div>
+        
+        <div class="project-text stamps-text">
+          <div class="text-content">
+            <h3>1946-2012</h3>
+            <h2>DUTCH POSTAGE STAMPS BOOKLET</h2>
+            <p>
+              A classic for any graphic designer: </br><i>The postage stamp</i>
+              Based on the text of Paul Hefting, this booklet features the designs of dutch numeral stamp designs
+              from the past 60 years, complemented by a design proposal for the future stamp. 
+            </p>
+          </div>
+          
+          <%- include('../project-links', {
+            prev: '/chromium-tech-trade-show-banner',
+            next: '/discover-oman-identity'
+          }) %>
+        </div>
+        
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

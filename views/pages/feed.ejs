@@ -2,14 +2,19 @@
 <html>
   <%- include('../head') %>
   <body class="feed-page">
-    <%- include('../header') %>
+    <header>
+      <div class="logo"> <a href="/">
+        <img src="https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fanimatie-logo_fast_O.gif" />
+      </a>
+      </div>
+    </header>
   
     <div class="feed-main">
       <div class="feed-logo">
       </div>
       
       <div class="cancel-feed">
-        <a href="/" ><div class="close-button"></div></a>
+        <a href="/?project=feed" ><div class="close-button"></div></a>
       </div>
       
       <div class="never-dull feed-section active-feed-section">
@@ -40,9 +45,9 @@
         <div class="visualization-image">
           <div class="visualization-carousel">
             <div class="stupid-carousel">
-              <img src="https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FPhone_small.png" />
-              <img src="https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fboxclosed_small.png" />
-              <img src="https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FBoxopen_small.png" />
+              <div class="visualization-slide visualization-img-1"></div>
+              <div class="visualization-slide visualization-img-2"></div>
+              <div class="visualization-slide visualization-img-3"></div>
             </div>
           </div>
         </div>
@@ -104,8 +109,15 @@
           
     
           </p>
+          
+          <%- include('../project-links', {
+            prev: '2001-a-space-odyssey',
+            next: '/chromium-tech-trade-show-banner'
+          }) %>
         </div>
         
+          
+          
       </div>
       
     </div>

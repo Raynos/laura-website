@@ -28,16 +28,25 @@ body, html {
   /* margin: 25px; */
   
   width: 100%;
+  height: 100%;
   /*height: `calc(100% - 20px);*/
   margin: 0;
-  margin-top: 20px;
   border: 0;
   padding: 0;
 }
 
-.main {
+.project-main {
+  margin-top: 50px;
   height: 450px;
   position: relative;
+}
+
+.main {
+  min-height: 300px;
+  height: 60%;
+  position: relative;
+  
+  overflow: auto;
 }
 
 .about-main {
@@ -55,11 +64,12 @@ body, html {
  */
 
 .animating-text-content {
-  width:380px;
+  width:460px;
   height:90px;
 }
 
 .animating-text-visible {
+  width: 100%;
   float:left;
   font-weight:600;
   overflow:hidden;
@@ -77,10 +87,10 @@ body, html {
   padding-left:0px;
   text-align:left;
   list-style:none;
-  animation: 12s linear 0s normal none infinite change;
-  -webkit-animation: 12s linear 0s normal none infinite change;
-  -moz-animation: 12s linear 0s normal none infinite change;
-  -o-animation: 12s linear 0s normal none infinite change;
+  animation: 50s linear 0s normal none infinite change;
+  -webkit-animation: 50s linear 0s normal none infinite change;
+  -moz-animation: 50s linear 0s normal none infinite change;
+  -o-animation: 50s linear 0s normal none infinite change;
 }
 
 .animating-text-visible ul li {
@@ -89,30 +99,91 @@ body, html {
   margin:0;
 }
 
+/* 0 -> 2.2, 2.2 -> 3.8, 3.8 -> 6
+
+  2.2, 1.6, 2.2, 1.6, 2.2, etc.
+  
+  13 total, 0, -90, ..., -1080, -990, ..., 0
+*/
+
 @keyframes change {
   0%   {margin-top:0;}
-  7%   {margin-top:0;}
+  2.2%   {margin-top:0;}
   
-  12%  {margin-top: -90px;}
-  18%  {margin-top: -90px;}
+  3.8%  {margin-top: -90px;}
+  6.0%  {margin-top: -90px;}
 
-  25%  {margin-top:-180px;}
-  32%  {margin-top:-180px;}
+  7.6%  {margin-top:-180px;}
+  9.8%  {margin-top:-180px;}
   
-  37%  {margin-top: -270px;}
-  44%  {margin-top: -270px;}
+  11.4%  {margin-top: -270px;}
+  13.6%  {margin-top: -270px;}
 
-  50%  {margin-top:-360px;}
-  57%  {margin-top:-360px;}
+  15.2%  {margin-top:-360px;}
+  17.4%  {margin-top:-360px;}
   
-  62%  {margin-top:-270px;}
-  69%  {margin-top:-270px;}
+  19%  {margin-top:-450px;}
+  21.2%  {margin-top:-450px;}
 
-  75%  {margin-top:-180px;}
-  82%  {margin-top:-180px;}
+  22.8%  {margin-top:-540px;}
+  25%  {margin-top:-540px;}
   
-  87%  {margin-top: -90px;}
-  94%  {margin-top: -90px;}
+  26.6%  {margin-top: -630px;}
+  28.8%  {margin-top: -630px;}
+  
+  30.4% {margin-top: -720px;}
+  32.6% {margin-top: -720px;}
+  
+  34.2% {margin-top: -810px;}
+  36.4% {margin-top: -810px;}
+  
+  38%   {margin-top: -900px;}
+  40.2% {margin-top: -900px;}
+  
+  41.8% {margin-top: -990px;}
+  44%   {margin-top: -990px;}
+  
+  45.6% {margin-top: -1080px;}
+  47.8% {margin-top: -1080px;}
+  
+  49.4% {margin-top: -1170px;}
+  51.6% {margin-top: -1170px;}
+  
+  53.2% {margin-top: -1080px;}
+  55.4% {margin-top: -1080px;}
+  
+  57%   {margin-top: -900px;}
+  59.2% {margin-top: -900px;}
+  
+  60.6% {margin-top: -810px;}
+  62.8% {margin-top: -810px;}
+  
+  64.4% {margin-top: -720px;}
+  66.6% {margin-top: -720px;}
+  
+  68.2% {margin-top: -630px;}
+  70.4% {margin-top: -630px;}
+  
+  72%   {margin-top: -540px;}
+  74.2% {margin-top: -540px;}
+  
+  75.8% {margin-top: -450px;}
+  78%   {margin-top: -450px;}
+  
+  79.6% {margin-top: -360px;}
+  81.8% {margin-top: -360px;}
+  
+  83.4% {margin-top: -270px;}
+  85.6% {margin-top: -270px;}
+  
+  87.2% {margin-top: -180px;}
+  89.4% {margin-top: -180px;}
+  
+  91%   {margin-top: -90px;}
+  93.2% {margin-top: -90px;}
+  
+  94.6% {margin-top: -0px;}
+  96.8% {margin-top: -0px;}
   
   100% {margin-top:0;}
 }
@@ -196,9 +267,11 @@ body, html {
   height: 92px;
   
   position: absolute;
-  top: 740px;
-  left: 50%;
-  margin-left: -730px;
+  bottom: 30px;
+  left: 70px;
+  
+/*   left: 50%;
+margin-left: -730px; */
 }
 
 .feed-section {
@@ -217,7 +290,7 @@ body, html {
 }
 
 .never-dull-image {
-  position: relative;
+  /* position: relative; */
   width: 50%;
   min-height: 1px;
   float: left;
@@ -225,8 +298,12 @@ body, html {
 
 .never-dull-image img {
   position: absolute;
-  left: -200px;
-  top: 285px;
+  
+  bottom: 0px;
+  left: 70px;
+  
+  /* left: -200px;
+  top: 285px; */
   z-index: -10;
 }
 
@@ -282,7 +359,7 @@ body, html {
 
 .visualization-image .visualization-carousel {
   position: absolute;
-  left: 150px;
+  left: 100px;
   top: 40px;
   
   width: 633px;
@@ -294,15 +371,30 @@ body, html {
   /* z-index: auto; */
 }
 
+.visualization-slide {
+  width: 633px;
+  height: 355px;
+}
+
+.visualization-img-1 {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FPhone_small.png");
+}
+.visualization-img-2 {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fboxclosed_small.png");
+}
+.visualization-img-3 {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FBoxopen_small.png");
+}
+
 .visualization-text {
   z-index: 100;
   position: absolute;
   right: 50%;
-  margin-right: -400px;
+  margin-right: -500px;
   
   margin-top: 120px;
   float: right;
-  /* padding-right: 120px; */
+  padding-right: 120px;
   max-width: 220px;
 }
 
@@ -401,7 +493,7 @@ body, html {
   margin-right: auto;
   text-align: center;
   
-  width: 380px;
+  width: 460px;
   /* padding-top: 24px; */
   /* padding-bottom: 24px; */
   letter-spacing: 0.05em;
@@ -592,10 +684,71 @@ body, html {
   padding-right: 19px;
 }
 
+.result-design-fiction {
+  position: relative;
+}
+
+.project-text .project-links,
+.result-design-fiction .project-links {
+  font-size: 12px;
+  font-family: 'CircularStd-BookItalic';
+  color: #337063;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.result-design-fiction .project-links {
+  bottom: -25px;
+}
+
+.project-links a {
+  color: #337063;
+  text-decoration: none;
+  border-bottom: 1px solid #337063;
+  padding-bottom: 0px;
+}
+
+.result-design-fiction a {
+  color: #fcc800;
+  border-bottom: 1px solid #fcc800;
+}
+
+.project-links a:visited {
+  color: #337063;
+}
+
+.result-design-fiction a:visited {
+  color: #fcc800;
+}
+
+.project-links a:hover {
+  color: #5dcfb6;
+}
+
+.result-design-fiction a:hover {
+  color: #337063;
+  border-bottom: 1px solid #337063;
+}
+
+.project-link-prev {
+  float: left;
+}
+
+.project-link-next {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 3px;
+}
+
+.result-design-fiction .project-link-next {
+  margin-right: 120px;
+}
+
 .project-text .text-content {
   position: absolute;
   margin-right: 30px;
-  bottom: 7px;
+  bottom: 40px;
 }
 
 .text-content i {
@@ -626,8 +779,18 @@ body, html {
 /*
  ****************** IMG SLIDE ***************
  */
+ 
+.img-link {
+  /* position: relative
+  height: 400px; */
+}
 
 .img-slide {
+  pos/* ition: absolute;
+  top: 50%;
+  mar */gin-top: -200px;
+  
+  /* width: 100%; */
   text-align: center;
   height: 400px;
 }
@@ -651,12 +814,24 @@ body, html {
   height: 100%;
 }
 
+.carousel {
+  position: relative;
+  height: 100%;
+}
+
 .carousel-wrapper {
-  margin-top: 75px;
-  margin-bottom: 50px;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  
+  height: 400px;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* margin-top: -200px; */
+  
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  min-width: 900px;
+  max-width: 75%;
 }
 
 /*
@@ -664,6 +839,7 @@ body, html {
  */
 
 .logo {
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -732,6 +908,26 @@ body, html {
   display: inline-block;
   height: 20px;
   vertical-align: top;
+}
+
+.email a, .phone a, .facebook a, .instagram a {
+  /* normal */
+  
+  color: #5dcfb6;
+  text-decoration: none;
+  /* underline:false; */
+}
+
+.email a:visited, .phone a:visited, .facebook a:visited, .instagram a:visited {
+  /* visited */
+  
+  color: #5dcfb6;
+}
+
+.email a:hover, .phone a:hover, .facebook a:hover, .instagram a:hover {
+  /* hover */
+  
+  color: #fcc800;
 }
 
 .phone, .instagram {

@@ -17,6 +17,16 @@ var PAGES = {
   alice: true
 }
 
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 
 function findSegment($elem) {
   var className = $elem.attr("class");
@@ -71,7 +81,7 @@ function manageActivePage() {
     // image fade animation time
     // $carousel.slick("slickSetOption", "speed", 1000);
     
-    $carousel.slick("slickPause");
+    $carousel.slick("slickPlay");
     
   });
   
@@ -91,10 +101,21 @@ function manageActivePage() {
 
 
 $(function() {
-
+  var projectName = getParameterByName('project') || 'nsj';
+  
+  var imgSlideElem = $('.img-slide.' + projectName);
+  var imgAnchor = imgSlideElem.parent();
+  
+  var siblings = imgAnchor.parent().children();
+  var index = siblings.index(imgAnchor);
+  if (index === -1) {
+    index = 1;
+  }
+  
   // home pagina carousel met alles
   $(".carousel").slick({
     slidesToShow: 3,
+    initialSlide: index - 1,
     speed: 1000,
     cssEase: 'ease-in-out',
     slidesToScroll: 1,
@@ -112,6 +133,7 @@ $(function() {
     // hack do not change lolol.
     autoplaySpeed: 100,
     cssEase: 'linear',
+    pauseOnHover: false,
     slidesToScroll: 1,
     dots: true,
     arrows: false
@@ -119,7 +141,6 @@ $(function() {
   
   setupActiveImageClass();
   manageActivePage();
-  
 });
 
 function setupActiveImageClass() {

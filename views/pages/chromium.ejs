@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-main">
+      <div class="project active-project chromium-project">
+        <div class="close-project"><a href="/?project=chromium"><div class="close-button"></div></a></div>
+        <div class="project-carousel chromium-carousel">
+          <div class="project-slide">
+            <div class="project-image chromiumtech-image first-image"></div>
+          </div>
+        </div>
+    
+        <div class="project-text chromium-text">
+          <div class="text-content">
+            <h2>TRADE SHOW BANNER</h2>
+            <p>
+              The design of this Trade Show banner is a solution for the lack of space on location to show all of Chromium Tech's Mini Car product range. <br> <br> 
+              The comprehensive banner showcases all possibilities in a colourful array of products on display.
+            </p>
+          </div>
+          
+             <%- include('../project-links', {
+            prev: '/feed',
+            next: '/dutch-postage-stamps-booklet'
+          }) %>
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>
