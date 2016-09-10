@@ -23,3 +23,11 @@ Made by Fog Creek
 -----------------
 
 \ ゜o゜)ノ
+
+
+TODO:
+
+ - More background colors
+ - Backtround abnners that spread the width of the page for footer & header
+ - on project page expand project view to spread the width of the page
+ - A silloute for the project images in carousel is nice, but no gradients

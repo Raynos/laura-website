@@ -3,12 +3,14 @@
 
 // init project
 var express = require('express');
+// var lessMiddleware = require('less-middleware');
 var app = express();
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
 // http://expressjs.com/en/starter/static-files.html
+// app.use(lessMiddleware(__dirname + '/public'));
 app.use(express.static('public'));
 
 app.set('view engine', 'ejs');

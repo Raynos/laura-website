@@ -1,0 +1,59 @@
+/*
+ ******** WHAT WE DO ********
+ */
+ 
+.head-line-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+ 
+.head-line {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: 70px;
+
+  display:inline-block;
+
+  color: #fcc800;
+  font-size: 30px;
+  font-family: 'CircularStd-Bold';
+  border-bottom: 2px solid #fcc800;
+}
+
+.details {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  width: calc(260px * 3);
+}
+
+.details-column {
+  float: left;
+  width: 230px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px;
+  font-family: 'CircularStd-Book';
+  line-height: 18px;
+}
+
+.details-icon {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.strengths-icon {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWhat-we-do-1.png");
+}
+.designsolution-icon {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWhat-we-do-2.png");
+}
+.challenge-icon {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWhat-we-do-3.png");
+}

@@ -1,0 +1,129 @@
+
+/*
+ ********* ANIMATING TEXT **********
+ */
+
+.animating-text-content {
+  width:460px;
+  height:90px;
+}
+
+.animating-text-visible {
+  width: 100%;
+  float:left;
+  font-weight:600;
+  overflow:hidden;
+  height:90px;   
+}
+
+.animating-text-visible p {
+  display:inline;
+  float:left;
+  margin:0;
+}
+
+.animating-text-visible ul {
+  margin-top:0;
+  padding-left:0px;
+  text-align:left;
+  list-style:none;
+  animation: 50s linear 0s normal none infinite change;
+  -webkit-animation: 50s linear 0s normal none infinite change;
+  -moz-animation: 50s linear 0s normal none infinite change;
+  -o-animation: 50s linear 0s normal none infinite change;
+}
+
+.animating-text-visible ul li {
+  line-height: 90px;
+  text-align: center;
+  margin:0;
+}
+
+/* 0 -> 2.2, 2.2 -> 3.8, 3.8 -> 6
+
+  2.2, 1.6, 2.2, 1.6, 2.2, etc.
+  
+  13 total, 0, -90, ..., -1080, -990, ..., 0
+*/
+
+@keyframes change {
+  0%   {margin-top:0;}
+  2.2%   {margin-top:0;}
+  
+  3.8%  {margin-top: -90px;}
+  6.0%  {margin-top: -90px;}
+
+  7.6%  {margin-top:-180px;}
+  9.8%  {margin-top:-180px;}
+  
+  11.4%  {margin-top: -270px;}
+  13.6%  {margin-top: -270px;}
+
+  15.2%  {margin-top:-360px;}
+  17.4%  {margin-top:-360px;}
+  
+  19%  {margin-top:-450px;}
+  21.2%  {margin-top:-450px;}
+
+  22.8%  {margin-top:-540px;}
+  25%  {margin-top:-540px;}
+  
+  26.6%  {margin-top: -630px;}
+  28.8%  {margin-top: -630px;}
+  
+  30.4% {margin-top: -720px;}
+  32.6% {margin-top: -720px;}
+  
+  34.2% {margin-top: -810px;}
+  36.4% {margin-top: -810px;}
+  
+  38%   {margin-top: -900px;}
+  40.2% {margin-top: -900px;}
+  
+  41.8% {margin-top: -990px;}
+  44%   {margin-top: -990px;}
+  
+  45.6% {margin-top: -1080px;}
+  47.8% {margin-top: -1080px;}
+  
+  49.4% {margin-top: -1170px;}
+  51.6% {margin-top: -1170px;}
+  
+  53.2% {margin-top: -1080px;}
+  55.4% {margin-top: -1080px;}
+  
+  57%   {margin-top: -900px;}
+  59.2% {margin-top: -900px;}
+  
+  60.6% {margin-top: -810px;}
+  62.8% {margin-top: -810px;}
+  
+  64.4% {margin-top: -720px;}
+  66.6% {margin-top: -720px;}
+  
+  68.2% {margin-top: -630px;}
+  70.4% {margin-top: -630px;}
+  
+  72%   {margin-top: -540px;}
+  74.2% {margin-top: -540px;}
+  
+  75.8% {margin-top: -450px;}
+  78%   {margin-top: -450px;}
+  
+  79.6% {margin-top: -360px;}
+  81.8% {margin-top: -360px;}
+  
+  83.4% {margin-top: -270px;}
+  85.6% {margin-top: -270px;}
+  
+  87.2% {margin-top: -180px;}
+  89.4% {margin-top: -180px;}
+  
+  91%   {margin-top: -90px;}
+  93.2% {margin-top: -90px;}
+  
+  94.6% {margin-top: -0px;}
+  96.8% {margin-top: -0px;}
+  
+  100% {margin-top:0;}
+}

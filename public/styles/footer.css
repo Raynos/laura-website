@@ -1,0 +1,124 @@
+.footer {
+  /* margin-top: 30px; */
+  margin-bottom: 30px;
+  /* height: auto; */
+}
+
+/*
+ ******************* ABOUT PAGE LINK ************
+ */
+
+.about-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-link {
+  display: inline-block;
+  color: #5dcfb6;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  font-family: 'MetroNovaPro-Bold';
+  border-bottom: 3px solid #5dcfb6;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-link:hover { 
+  color: #fcc800;
+}
+
+
+/*
+ ******************** ABOUT SECTION *************
+ */
+
+.icons-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 100%; */
+  
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  font-family: 'CircularStd-Book';
+  color: #5dcfb6;
+  width: 350px;
+}
+
+.email-phone {
+  float: left;
+}
+
+.facebook-instagram {
+  float: right;
+}
+
+.email, .phone, .facebook, .instagram {
+  display: block;
+  vertical-align: middle;
+}
+
+.email span, .phone span, .facebook span, .instagram span {
+  /* float: top; */
+  margin-top: 2px;
+  display: inline-block;
+  height: 20px;
+  vertical-align: top;
+}
+
+.email a, .phone a, .facebook a, .instagram a {
+  /* normal */
+  
+  color: #5dcfb6;
+  text-decoration: none;
+  /* underline:false; */
+}
+
+.email a:visited, .phone a:visited, .facebook a:visited, .instagram a:visited {
+  /* visited */
+  
+  color: #5dcfb6;
+}
+
+.email a:hover, .phone a:hover, .facebook a:hover, .instagram a:hover {
+  /* hover */
+  
+  color: #fcc800;
+}
+
+.phone, .instagram {
+  margin-top: 6px;
+}
+
+.email-icon, .facebook-icon, .instagram-icon, .phone-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  
+  display: inline-block;
+}
+
+.phone-icon, .facebook-icon {
+  margin-left: 4px;
+}
+.instagram span, .email span {
+  margin-left: 4px;
+}
+
+
+.email:hover {
+ color: #fcc800;
+}
+
+.phone:hover {
+ color: #fcc800;
+}
+
+.facebook:hover {
+ color: #fcc800;
+}
+
+.instagram:hover {
+ color: #fcc800;
+}

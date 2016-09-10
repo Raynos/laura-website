@@ -116,7 +116,7 @@ $(function() {
   $(".carousel").slick({
     slidesToShow: 3,
     initialSlide: index - 1,
-    speed: 1000,
+    speed: 750,
     cssEase: 'ease-in-out',
     slidesToScroll: 1,
     dots: true,

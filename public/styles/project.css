@@ -1,0 +1,168 @@
+/*
+ ******** PROJECT ***************
+ */
+
+.project {
+  width: 925px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* position: relative; */
+}
+.project .project-image {
+  float: left;
+  height: 400px;
+  width: 614px;
+  /* overflow: visible; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.active-project {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: calc(-925px / 2);
+  background-color: white;
+  /* margin-right: auto; */
+  /* right: auto; */
+}
+
+.project-carousel {
+  height: 100%;
+  width: 875px;
+}
+
+.project-slide {
+  height: 100%;
+}
+
+.cancel-feed {
+  position: absolute;
+  right: 50%;
+  margin-right: -525px;
+  top: 240px;
+}
+
+.close-project {
+  height: 28px;
+  width: 28px;
+  right: -70px;
+  top: 0;
+  position: absolute;
+}
+
+.close-button {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FcrossDark.png");
+  height: 28px;
+  width: 28px;
+}
+
+.close-button:hover {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fcross.png");
+}
+
+.project-text {
+  position: absolute;
+  right: 38px;
+  top: 2px;
+  width: calc(260px - 19px - 19px);
+  height: 396px;
+  float: left;
+  background-color: #e6edec;
+  display: inline-block;
+  text-align: left;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.result-design-fiction {
+  position: relative;
+}
+
+.project-text .project-links,
+.result-design-fiction .project-links {
+  font-size: 12px;
+  font-family: 'CircularStd-BookItalic';
+  color: #337063;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.result-design-fiction .project-links {
+  bottom: -25px;
+}
+
+.project-links a {
+  color: #337063;
+  text-decoration: none;
+  border-bottom: 1px solid #337063;
+  padding-bottom: 0px;
+}
+
+.result-design-fiction a {
+  color: #fcc800;
+  border-bottom: 1px solid #fcc800;
+}
+
+.project-links a:visited {
+  color: #337063;
+}
+
+.result-design-fiction a:visited {
+  color: #fcc800;
+}
+
+.project-links a:hover {
+  color: #5dcfb6;
+}
+
+.result-design-fiction a:hover {
+  color: #337063;
+  border-bottom: 1px solid #337063;
+}
+
+.project-link-prev {
+  float: left;
+}
+
+.project-link-next {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 3px;
+}
+
+.result-design-fiction .project-link-next {
+  margin-right: 120px;
+}
+
+.project-text .text-content {
+  position: absolute;
+  margin-right: 30px;
+  bottom: 40px;
+}
+
+.text-content i {
+  font-family: 'CircularStd-BookItalic';
+}
+
+.text-content h3 {
+  font-size: 12px;
+  margin-bottom: 4px;
+  margin-top: 6px;
+}
+
+.text-content h2 {
+  font-size: 20px;
+  font-family: 'MetroNovaPro-Bold';
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.text-content p {
+  font-size: 12px;
+  font-family: 'CircularStd-Book';
+}
