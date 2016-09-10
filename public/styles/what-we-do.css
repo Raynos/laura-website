@@ -13,7 +13,7 @@
   margin-right: auto;
   text-align: center;
   letter-spacing: 0.05em;
-  margin-top: 70px;
+  margin-top: 40px;
 
   display:inline-block;
 
@@ -23,13 +23,25 @@
   border-bottom: 2px solid #fcc800;
 }
 
+@media screen and ( min-height: 900px ){
+  .head-line {
+    margin-top: 70px;
+  }
+}
+
 .details {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   
   width: calc(260px * 3);
+}
+
+@media screen and ( min-height: 900px ){
+  .details {
+    margin-top: 70px;
+  }
 }
 
 .details-column {

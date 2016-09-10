@@ -34,8 +34,9 @@ body {
 }
 
 .project-main {
-  margin-top: 50px;
-  height: 450px;
+  min-height: 430px;
+  max-height: 580px;
+  height: 60%;
   position: relative;
 }
 
@@ -58,4 +59,12 @@ body {
   max-height: 580px;
   height: 60%;
   position: relative;
+}
+
+ 
+.feed-main {
+  min-height: 430px;
+  max-height: 580px;
+  height: 60%;
+  /* position: relative; */
 }
