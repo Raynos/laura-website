@@ -22,7 +22,7 @@
 }
  
 .is {
-  margin-top: 70px;
+  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -33,8 +33,14 @@
   font-family: 'MetroNovaPro-Regular';
 }
 
+@media screen and ( min-height: 900px ){
+  .is {
+    padding-top: 70px;
+  }
+}
+
 .focus-word {
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -50,6 +56,12 @@
   color: #fcc800;
   font-size: 50px;
   font-family: 'CircularStd-Bold';
+}
+
+@media screen and ( min-height: 900px ){
+  .focus-word {
+    margin-top: 70px;
+  }
 }
 
 .information {
@@ -75,6 +87,7 @@
   width: 300px;
   text-align: left;
 }
+
 .university {
   font-family: 'CircularStd-BookItalic';
   font-size: 11px;

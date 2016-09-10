@@ -47,11 +47,15 @@ body {
 }
 
 .about-main {
-  height: 460px;
+  min-height: 430px;
+  max-height: 580px;
+  height: 60%;
   position: relative;
 }
 
 .what-we-do-main {
-  height: 525px;
+  min-height: 430px;
+  max-height: 580px;
+  height: 60%;
   position: relative;
 }
