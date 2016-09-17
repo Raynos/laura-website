@@ -81,6 +81,23 @@ body {
     position: static;
   }
   
+  .main {
+    min-height: auto;
+    max-height: none;
+    height: auto;
+    position: static;
+  }
+  
+  .project-main {
+    overflow-x:hidden;
+    
+    min-height: auto;
+    max-height: none;
+    height: auto;
+    position: static;
+  }
+
+  
   .what-we-do-main {
     min-height: auto;
     max-height: none;

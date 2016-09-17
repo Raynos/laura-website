@@ -9,9 +9,9 @@
 }
 
 .img-slide {
-  pos/* ition: absolute;
+  /*pos ition: absolute;
   top: 50%;
-  mar */gin-top: -200px;
+  mar gin-top: -200px;*/
   
   /* width: 100%; */
   text-align: center;
@@ -63,4 +63,28 @@
   min-width: 900px;
   width: 75%;
   max-width: 1080px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .carousel-wrapper {
+    min-width: 251px;
+    width: 80%;
+    max-width: none;
+    height: 350px;
+  }
+  
+  /* .alice {
+    background-size: contain;
+  } */
+  
+  .img-slide {
+    height: 300px;
+    /* background-size: contain; */
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .img-slide {
+    background-size: auto;
+  }
 }

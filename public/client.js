@@ -17,6 +17,15 @@ var PAGES = {
   alice: true
 }
 
+var pageWidth = $(window).width();
+var MODE = 'desktop';
+
+if (pageWidth >= 320 && pageWidth < 768) {
+  MODE = 'phone';
+} else if (pageWidth >= 768 && pageWidth < 1000) {
+  MODE = 'tablet';
+}
+
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -99,6 +108,10 @@ function manageActivePage() {
   });
 }
 
+var slidesToShow =
+  MODE === 'desktop' ? 3 :
+  MODE === 'phone' ? 1 :
+  1;
 
 $(function() {
   var projectName = getParameterByName('project') || 'nsj';
@@ -114,7 +127,7 @@ $(function() {
   
   // home pagina carousel met alles
   $(".carousel").slick({
-    slidesToShow: 3,
+    slidesToShow: slidesToShow,
     initialSlide: index - 1,
     speed: 750,
     cssEase: 'ease-in-out',
@@ -148,11 +161,21 @@ function setupActiveImageClass() {
     var $current = getElemByIndex(currentIndex);
     var $next = getElemByIndex(nextIndex);
     
-    nextElem($current).removeClass("active-img");
-    nextElem($next).addClass("active-img");
+    if (slidesToShow === 3) {
+      nextElem($current).removeClass("active-img");
+      nextElem($next).addClass("active-img");  
+    } else {
+      $current.removeClass("active-img");
+      $next.addClass("active-img");
+    }
   });
 
-  nextElem(getCurrentElem()).addClass("active-img");
+
+  if (slidesToShow === 3) {
+    nextElem(getCurrentElem()).addClass("active-img");
+  } else {
+    getCurrentElem().addClass("active-img");
+  }
   
   function nextElem($elem) {
     var parent = $elem.parent();
@@ -210,7 +233,28 @@ function preLoadImages () {
     "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20GHHS.png",
     "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20FCHS.png",
     "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedG50S.png",
-    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedSS.png"
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FfeedSS.png",
+    
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_100.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_50.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_0.png",
+    
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FChromium_M_100.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FChromium_M_50.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FChromium_M_0.png",
+    
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FNSJ_M_100.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FNSJ_M_50.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FNSJ_M_0.png",
+    
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWayfare_M_100.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWayfare_M_50.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FWayfare_M_0.png",
+    
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_100.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_50.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_0.png",
+   
   ];
   
   imageUrls.forEach(function (imageUrl) {

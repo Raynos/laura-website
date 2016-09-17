@@ -184,3 +184,82 @@
   font-size: 12px;
   font-family: 'CircularStd-Book';
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .project-carousel {
+    height: auto;
+    width: 280px;
+  }
+  
+  .project {
+    width: 280px;
+    height: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .project-text .text-content {
+    position: static;
+  }
+  
+  .project-text .project-links,
+  .result-design-fiction .project-links {
+    position: static;
+  }
+
+  .active-project {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    top: auto;
+    left: auto;
+    height: auto;
+    /* margin-left: 0px; */
+    /* background-color: white; */
+    /* margin-right: auto; */
+    /* right: auto; */
+  }
+  
+  .project-text {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 260px;
+    height: auto;
+    float: none;
+  
+    background-color: #e6edec;
+    display: inline-block;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+  }
+  
+  .close-project {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    width: 100%;
+    display: block;
+    /* z-index: 999; */
+    /* float: right; */
+    /* top: -28px; */
+    position: static;
+  }
+  
+  .close-project .close-button {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .project .project-image {
+    width: 280px;
+    /* overflow: visible; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+  }
+}

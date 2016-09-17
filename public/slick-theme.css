@@ -221,3 +221,18 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 } */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .slick-prev {
+    left: -20px;
+  }
+  
+  .slick-next {
+    right: -20px;
+  }
+  
+  .slick-slide {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
