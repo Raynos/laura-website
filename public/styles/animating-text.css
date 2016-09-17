@@ -127,3 +127,115 @@
   
   100% {margin-top:0;}
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .animating-text-content {
+    width: 240px;
+    height: 60px;
+  }
+  
+  .animating-text-visible {
+    height: 60px;
+  }
+  
+  .animating-text-visible ul li {
+    line-height: 60px;
+  }
+  
+  @keyframes change {
+    0%   {margin-top:0;}
+    2.2%   {margin-top:0;}
+    
+    3.8%  {margin-top: -60px;}
+    6.0%  {margin-top: -60px;}
+  
+    7.6%  {margin-top:-120px;}
+    9.8%  {margin-top:-120px;}
+    
+    11.4%  {margin-top: -180px;}
+    13.6%  {margin-top: -180px;}
+  
+    15.2%  {margin-top:-240px;}
+    17.4%  {margin-top:-240px;}
+    
+    19%  {margin-top:-300px;}
+    21.2%  {margin-top:-300px;}
+  
+    22.8%  {margin-top:-360px;}
+    25%  {margin-top:-360px;}
+    
+    26.6%  {margin-top: -420px;}
+    28.8%  {margin-top: -420px;}
+    
+    30.4% {margin-top: -480px;}
+    32.6% {margin-top: -480px;}
+    
+    34.2% {margin-top: -540px;}
+    36.4% {margin-top: -540px;}
+    
+    38%   {margin-top: -600px;}
+    40.2% {margin-top: -600px;}
+    
+    41.8% {margin-top: -660px;}
+    44%   {margin-top: -660px;}
+    
+    45.6% {margin-top: -720px;}
+    47.8% {margin-top: -720px;}
+    
+    49.4% {margin-top: -780px;}
+    51.6% {margin-top: -780px;}
+    
+    53.2% {margin-top: -720px;}
+    55.4% {margin-top: -720px;}
+    
+    57%   {margin-top: -600px;}
+    59.2% {margin-top: -600px;}
+    
+    60.6% {margin-top: -540px;}
+    62.8% {margin-top: -540px;}
+    
+    64.4% {margin-top: -480px;}
+    66.6% {margin-top: -480px;}
+    
+    68.2% {margin-top: -420px;}
+    70.4% {margin-top: -420px;}
+    
+    72%   {margin-top: -360px;}
+    74.2% {margin-top: -360px;}
+    
+    75.8% {margin-top: -300px;}
+    78%   {margin-top: -300px;}
+    
+    79.6% {margin-top: -240px;}
+    81.8% {margin-top: -240px;}
+    
+    83.4% {margin-top: -180px;}
+    85.6% {margin-top: -180px;}
+    
+    87.2% {margin-top: -120px;}
+    89.4% {margin-top: -120px;}
+    
+    91%   {margin-top: -60px;}
+    93.2% {margin-top: -60px;}
+    
+    94.6% {margin-top: -0px;}
+    96.8% {margin-top: -0px;}
+    
+    100% {margin-top:0;}
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .animating-text-content {
+    width: 480px;
+    height: 90px;
+  }
+  
+  .animating-text-visible {
+    height: 90px;
+  }
+  
+  .animating-text-visible ul li {
+    line-height: 90px;
+  }
+}

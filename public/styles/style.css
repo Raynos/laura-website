@@ -61,10 +61,30 @@ body {
   position: relative;
 }
 
- 
 .feed-main {
   min-height: 430px;
   max-height: 580px;
   height: 60%;
   /* position: relative; */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  body {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .about-main {
+    min-height: auto;
+    max-height: none;
+    height: auto;
+    position: static;
+  }
+  
+  .what-we-do-main {
+    min-height: auto;
+    max-height: none;
+    height: auto;
+    position: static;
+  }
 }

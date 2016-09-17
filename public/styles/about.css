@@ -102,7 +102,7 @@
   font-family: 'CircularStd-BookItalic';
   font-size: 11px;
   float: left;
-  width: 300px;
+  width: 100%;
   letter-spacing: 0.08em;
   line-height: 150%;
   margin-bottom: 20px;
@@ -112,7 +112,7 @@
   font-family: 'CircularStd-BookItalic';
   font-size: 11px;
   float: left;
-  width: 300px;
+  width: 100%;
   letter-spacing: 0.08em;
   line-height: 150%;
   margin-bottom: 20px;
@@ -122,7 +122,7 @@
   font-family: 'CircularStd-BookItalic';
   font-size: 11px;
   float: left;
-  width: 300px;
+  width: 100%;
   letter-spacing: 0.08em;
   line-height: 150%;
 }
@@ -170,4 +170,114 @@
 
 .icons {
   color: #fcc800;
+}
+
+/* MOBILE */
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .focus-word {
+    width: 240px;
+    font-size: 28px;
+  }
+
+  .is {
+    padding-top: 45px;
+  }
+  
+  .information {
+    width: 240px;
+    margin-bottom: 20px;
+  }
+  
+  .wessel, .laura {
+    float: none;
+    width: 240px;
+    text-align: center;
+  }
+  
+  .icons {
+    width: 240px;
+  }
+  
+  .right-photo {
+    display: none;
+  }
+  
+  .person-and {
+    font-family: 'CircularStd-BookItalic';
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .uni-icon, .baby-icon, .heart-icon {
+    display: none;
+  }
+  
+  .left-photo {
+    position: static;
+    top: auto;
+    left: auto;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    height: 204px;
+    width: 125px;
+    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_Laura_Wessel_Deviate_Design.png");
+    background-size: contain;
+  }
+}
+
+/* IPAD */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .focus-word {
+    width: 480px;
+    font-size: 50px;
+    /* font-size: 28px; */
+  }
+  
+  .is {
+    padding-top: 40px;
+    font-size: 28px;
+  }
+  
+  .information {
+    width: 480px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .wessel, .laura {
+    float: none;
+    width: 480px;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .university, .birth-place, .hobbies {
+    font-size: 20px;
+  }
+  
+  .icons {
+    width: 480px;
+  }
+  
+  .person-and {
+    font-size: 36px; 
+  }
+  
+  .left-photo {
+    position: static;
+    top: auto;
+    left: auto;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    height: 340px;
+    width: 208px;
+    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_Laura_Wessel_Deviate_Design.png");
+    background-size: contain;
+  }
 }
