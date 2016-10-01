@@ -53,7 +53,7 @@ function preprocess(templateStr) {
 
     function replaceFunc(x, p1) {
         if (p1 === '/') {
-            return x;
+            return 'href="./"';
         } else if (p1 === '#') {
             return x;
         } else if (p1[0] === '?') {
@@ -64,7 +64,11 @@ function preprocess(templateStr) {
             return str;
         }
 
-        console.log('fff', p1);
+        if (p1[0] === '/') {
+            p1 = p1.substr(1);
+        }
+
+        // console.log('fff', p1);
 
         // console.log('matched', x, p1);
         return 'href="' + p1 + '.html"';
