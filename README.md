@@ -31,3 +31,12 @@ TODO:
  - Backtround abnners that spread the width of the page for footer & header
  - on project page expand project view to spread the width of the page
  - A silloute for the project images in carousel is nice, but no gradients
+ - 
+ 
+
+TODO 2:
+
+ - Homepagina images smaller [?]
+ - Mobile, project pagina ontwerp aanpassen
+ - Feed pagina, moet gedaan voor mobile.
+ - FTP details zonder whitelist.

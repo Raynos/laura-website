@@ -73,6 +73,10 @@
     height: 350px;
   }
   
+  .carousel-wrapper .slick-next, .carousel-wrapper .slick-prev {
+    top: 150px;
+  }
+  
   /* .alice {
     background-size: contain;
   } */

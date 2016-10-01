@@ -112,6 +112,16 @@ var slidesToShow =
   MODE === 'desktop' ? 3 :
   MODE === 'phone' ? 1 :
   1;
+  
+var imageOffset =
+  MODE === 'desktop' ? 1 :
+  MODE === 'phone' ? 0 :
+  0
+
+var initialImage =
+  MODE === 'desktop' ? 1 :
+  MODE === 'phone' ? 0 :
+  0
 
 $(function() {
   var projectName = getParameterByName('project') || 'nsj';
@@ -122,13 +132,13 @@ $(function() {
   var siblings = imgAnchor.parent().children();
   var index = siblings.index(imgAnchor);
   if (index === -1) {
-    index = 1;
+    index = initialImage;
   }
   
   // home pagina carousel met alles
   $(".carousel").slick({
     slidesToShow: slidesToShow,
-    initialSlide: index - 1,
+    initialSlide: index - imageOffset,
     speed: 750,
     cssEase: 'ease-in-out',
     slidesToScroll: 1,

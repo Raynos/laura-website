@@ -185,7 +185,42 @@
   font-family: 'CircularStd-Book';
 }
 
+.mobile.close-project {
+  display: none;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .desktop.close-project {
+    display: none;
+  }
+  
+  .project .slick-dots {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  
+  .mobile.close-project {
+    display: block;
+    
+    height: 0px;
+    width: 100%;
+    display: block;
+    /* z-index: 999; */
+    /* float: right; */
+    /* top: -28px; */
+    position: static;
+  }
+  
+  .close-project .close-button {
+    float: right;
+    margin-top: -48px;
+    /* margin-right: 20px; */
+  }
+  
+  .chromium-project .close-project .close-button {
+    margin-top: 0px;
+  }
+  
   .project-carousel {
     height: auto;
     width: 280px;
@@ -229,7 +264,7 @@
     height: auto;
     float: none;
   
-    background-color: #e6edec;
+    background-color: transparent;
     display: inline-block;
     text-align: left;
     padding-left: 8px;
@@ -237,25 +272,26 @@
     padding-bottom: 10px;
   }
   
-  .close-project {
+  /* .close-project {
     height: 28px;
     width: 28px;
     margin-right: 20px;
     width: 100%;
     display: block;
-    /* z-index: 999; */
-    /* float: right; */
-    /* top: -28px; */
+    z-index: 999;
+    float: right;
+    top: -28px;
     position: static;
-  }
+  } */
   
-  .close-project .close-button {
+  /* .close-project .close-button {
     float: right;
     margin-right: 20px;
-  }
+  } */
   
   .project .project-image {
     width: 280px;
+    height: 200px;
     /* overflow: visible; */
     background-size: contain;
     background-repeat: no-repeat;
