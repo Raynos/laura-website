@@ -12,6 +12,7 @@ upload:
 	git fetch --all
 	git merge origin/hyperdev
 	git checkout gh-pages
+	git rebase -i origin/master
 	make clean
 	make build
 	cp -R ./static/* ./
