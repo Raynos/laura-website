@@ -57,8 +57,14 @@ function preprocess(templateStr) {
         } else if (p1 === '#') {
             return x;
         } else if (p1[0] === '?') {
-            return 'href=".' + p1;
+            // console.log('---', p1);
+
+            var str = 'href="./' + p1 + '"';
+            // console.log('---', str);
+            return str;
         }
+
+        console.log('fff', p1);
 
         // console.log('matched', x, p1);
         return 'href="' + p1 + '.html"';
