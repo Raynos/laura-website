@@ -14,7 +14,7 @@ upload:
 	git rebase origin/hyperdev
 	make clean
 	make build
-	cp -r ./static .
+	cp -R ./static/* ./
 	git add --all
 	git commit --all -m 'build static stuff'
 	git push origin gh-pages -f
