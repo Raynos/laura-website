@@ -3,7 +3,7 @@ build:
 	node scripts/build.js
 
 clean:
-	rm -r ./static/*
+	rm -rf ./static/*
 
 static:
 	./node_modules/.bin/static-server ./static
@@ -17,7 +17,7 @@ upload:
 	make build
 	cp -R ./static/* ./
 	git add --all
-	git commit --all -m 'build static stuff'
+	git commit --all --allow-empty -m 'build static stuff'
 	git push origin gh-pages -f
 	git checkout master
 
