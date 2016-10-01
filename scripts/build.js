@@ -47,7 +47,7 @@ for (var i = 0; i < fileNames.length; i++) {
 
 function preprocess(templateStr) {
     return templateStr
-        .replace(/href="([^"]+)"/g, replaceFunc)
+        .replace(/href="\/([^"]+)"/g, replaceFunc)
         .replace(/prev: '\/([^']+)'/g, replacePrev)
         .replace(/next: '\/([^']+)'/g, replaceNext);
 
@@ -65,11 +65,11 @@ function preprocess(templateStr) {
     }
 
     function replacePrev(x, p1) {
-        return "prev: '/" + p1 + ".html'";
+        return "prev: '" + p1 + ".html'";
     }
 
     function replaceNext(x, p1) {
-        return "next: '/" + p1 + ".html'";
+        return "next: '" + p1 + ".html'";
     }
 }
 
