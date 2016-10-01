@@ -19,5 +19,6 @@ upload:
 	git add --all
 	git commit --all -m 'build static stuff'
 	git push origin gh-pages -f
+	git checkout master
 
 .PHONY: build static
