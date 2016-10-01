@@ -57,7 +57,7 @@ function preprocess(templateStr) {
         } else if (p1 === '#') {
             return x;
         } else if (p1[0] === '/' && p1[1] === '?') {
-            return x;
+            return 'href=".' + p1;
         }
 
         // console.log('matched', x, p1);
