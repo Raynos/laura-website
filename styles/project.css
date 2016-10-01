@@ -1,0 +1,363 @@
+/*
+ ******** PROJECT ***************
+ */
+
+.project {
+  margin-top: 5px;
+  width: 925px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* position: relative; */
+}
+
+@media screen and ( min-height: 850px ){
+  .project {
+    margin-top: 50px;
+  }
+}
+
+.project .project-image {
+  float: left;
+  height: 400px;
+  width: 614px;
+  /* overflow: visible; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.project .slick-dots {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+@media screen and ( min-height: 850px ){
+  .project .slick-dots {
+    margin-top: 40px;
+  }
+}
+
+.active-project {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: calc(-925px / 2);
+  background-color: white;
+  /* margin-right: auto; */
+  /* right: auto; */
+}
+
+.project-carousel {
+  height: 100%;
+  width: 875px;
+}
+
+.project-slide {
+  height: 100%;
+}
+
+.close-project {
+  height: 28px;
+  width: 28px;
+  right: -10px;
+  top: 0;
+  position: absolute;
+}
+
+@media screen and ( min-width: 1150px ){
+  .close-project {
+    right: -70px;
+  }
+}
+
+.close-button {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FcrossDark.png");
+  height: 28px;
+  width: 28px;
+}
+
+.close-button:hover {
+  background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2Fcross.png");
+}
+
+.project-text {
+  position: absolute;
+  right: 38px;
+  top: 2px;
+  width: calc(260px - 19px - 19px);
+  height: 396px;
+  float: right;
+  background-color: #e6edec;
+  display: inline-block;
+  text-align: left;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.result-design-fiction {
+  position: relative;
+}
+
+.project-text .project-links,
+.result-design-fiction .project-links {
+  font-size: 12px;
+  font-family: 'CircularStd-BookItalic';
+  color: #337063;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.result-design-fiction .project-links {
+  bottom: -25px;
+}
+
+.project-links a {
+  color: #337063;
+  text-decoration: none;
+  border-bottom: 1px solid #337063;
+  padding-bottom: 0px;
+}
+
+.result-design-fiction a {
+  color: #fcc800;
+  border-bottom: 1px solid #fcc800;
+}
+
+.project-links a:visited {
+  color: #337063;
+}
+
+.result-design-fiction a:visited {
+  color: #fcc800;
+}
+
+.project-links a:hover {
+  color: #5dcfb6;
+}
+
+.result-design-fiction a:hover {
+  color: #337063;
+  border-bottom: 1px solid #337063;
+}
+
+.project-link-prev {
+  float: left;
+}
+
+.project-link-next {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 3px;
+}
+
+.result-design-fiction .project-link-next {
+  margin-right: 120px;
+}
+
+.project-text .text-content {
+  position: absolute;
+  margin-right: 30px;
+  bottom: 40px;
+}
+
+.text-content i {
+  font-family: 'CircularStd-BookItalic';
+}
+
+.text-content h3 {
+  font-size: 12px;
+  margin-bottom: 4px;
+  margin-top: 6px;
+}
+
+.text-content h2 {
+  font-size: 20px;
+  font-family: 'MetroNovaPro-Bold';
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.text-content p {
+  font-size: 12px;
+  font-family: 'CircularStd-Book';
+}
+
+.mobile.close-project {
+  display: none;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .desktop.close-project {
+    display: none;
+  }
+  
+  .project .slick-dots {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  
+  .project-link-next {
+    margin-right: 20px;
+  }
+  
+  .mobile.close-project {
+    display: block;
+    
+    height: 0px;
+    width: 100%;
+    display: block;
+    z-index: 999;
+    float: right;
+    /* top: -28px; */
+    position: relative;
+  }
+  
+  .close-project .close-button {
+    float: right;
+    margin-top: 6px;
+    margin-right: 20px;
+    
+    background-size: contain;
+    height: 22px;
+    width: 22px;
+  }
+  
+  .chromium-project .close-project .close-button {
+    margin-top: 0px;
+  }
+  
+  .project-carousel {
+    height: auto;
+    
+    /* position: absolute; */
+    /* height: auto; */
+    /* overflow-y: auto; */
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  
+  .project {
+    width: 280px;
+    height: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .project-text .text-content {
+    margin-right: 10px;
+    position: static;
+  }
+  
+  .project-text .project-links,
+  .result-design-fiction .project-links {
+    position: static;
+  }
+
+  .active-project {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    top: auto;
+    left: auto;
+    height: auto;
+    /* margin-left: 0px; */
+    /* background-color: white; */
+    /* margin-right: auto; */
+    /* right: auto; */
+  }
+  
+  .project-text {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 260px;
+    height: auto;
+    float: none;
+  
+    background-color: transparent;
+    display: inline-block;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+  }
+  
+  /* .close-project {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    width: 100%;
+    display: block;
+    z-index: 999;
+    float: right;
+    top: -28px;
+    position: static;
+  } */
+  
+  /* .close-project .close-button {
+    float: right;
+    margin-right: 20px;
+  } */
+  
+  .project .project-image {
+    width: 280px;
+    height: 200px;
+    
+    /* position: absolute;
+    left: 0px;
+    right: 0px; */
+    /* height: 200px; */
+    /* overflow-y: auto; */
+    
+    /* overflow: visible; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+  
+  }
+}
+
+/* IPAD */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .project .project-image {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .project {
+    width: 500px;
+  }
+  
+  .project-text {
+    width: 480px;
+    font-size: 28px;
+  }
+  
+  
+  .text-content h3 {
+    font-size: 20px;
+  }
+  
+  .text-content h2 {
+    font-size: 28px;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+  }
+  
+  .project-text .project-links,
+  .result-design-fiction .project-links {
+    font-size: 20px;
+  }
+
+  
+  .project-carousel {
+    width: 500px;
+  }
+}

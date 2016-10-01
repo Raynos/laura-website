@@ -1,0 +1,94 @@
+
+/*
+ ****************** IMG SLIDE ***************
+ */
+ 
+.img-link {
+  /* position: relative
+  height: 400px; */
+}
+
+.img-slide {
+  /*pos ition: absolute;
+  top: 50%;
+  mar gin-top: -200px;*/
+  
+  /* width: 100%; */
+  text-align: center;
+  height: 400px;
+}
+
+.img-slide:focus {
+  outline: none;
+}
+
+.img-link:focus {
+  outline: none;
+}
+
+.img-wrapper {
+  /* border: 1px black solid; */
+  position: relative;
+  vertical-align: middle;
+}
+.img-slide img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.carousel {
+  position: relative;
+  height: 100%;
+}
+
+@media screen and ( min-height: 900px ){
+  .carousel-wrapper {
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+}
+
+.carousel-wrapper {
+  /* padding-top: 75px;
+  padding-bottom: 50px; */
+  
+  height: 400px;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* margin-top: -200px; */
+  
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 900px;
+  width: 75%;
+  max-width: 1080px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+  .carousel-wrapper {
+    min-width: 251px;
+    width: 80%;
+    max-width: none;
+    height: 350px;
+  }
+  
+  .carousel-wrapper .slick-next, .carousel-wrapper .slick-prev {
+    top: 150px;
+  }
+  
+  /* .alice {
+    background-size: contain;
+  } */
+  
+  .img-slide {
+    height: 300px;
+    /* background-size: contain; */
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .img-slide {
+    background-size: auto;
+  }
+}
