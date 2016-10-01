@@ -56,7 +56,7 @@ function preprocess(templateStr) {
             return x;
         } else if (p1 === '#') {
             return x;
-        } else if (p1[0] === '/' && p1[1] === '?') {
+        } else if (p1[0] === '?') {
             return 'href=".' + p1;
         }
 
