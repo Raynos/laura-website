@@ -415,19 +415,19 @@
  
 @media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
   
-  .Oman{
+  .oman{
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_100.png");
   }
   
-  .Oman:hover {
+  .oman:hover {
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_50.png");
   }
   
-  .active-img .Oman {
+  .active-img .oman {
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_50.png");
   }
   
-  .active-img .Oman:hover {
+  .active-img .oman:hover {
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_0.png");
   }
   
