@@ -411,23 +411,24 @@
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_0.png");
   }
   
-  /* 
+}
+ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
   
-  @media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
-  .alice {
-    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_100.png");
+  .Oman{
+    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_100.png");
   }
   
-  .alice:hover {
-    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_50.png");
+  .Oman:hover {
+    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_50.png");
   }
   
-  .active-img .alice {
-    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_50.png");
+  .active-img .Oman {
+    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_50.png");
   }
   
-  .active-img .alice:hover {
-    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice_M_0.png");
+  .active-img .Oman:hover {
+    background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_0.png");
   }
   
-  */
+}

@@ -199,22 +199,30 @@
     margin-top: 5px;
   }
   
+  .project-link-next {
+    margin-right: 20px;
+  }
+  
   .mobile.close-project {
     display: block;
     
     height: 0px;
     width: 100%;
     display: block;
-    /* z-index: 999; */
-    /* float: right; */
+    z-index: 999;
+    float: right;
     /* top: -28px; */
-    position: static;
+    position: relative;
   }
   
   .close-project .close-button {
     float: right;
-    margin-top: -48px;
-    /* margin-right: 20px; */
+    margin-top: 0px;
+    margin-right: 20px;
+    
+    background-size: contain;
+    height: 22px;
+    width: 22px;
   }
   
   .chromium-project .close-project .close-button {
@@ -223,7 +231,12 @@
   
   .project-carousel {
     height: auto;
+    
+    /* position: absolute; */
+    /* height: auto; */
+    /* overflow-y: auto; */
     width: 280px;
+    margin-bottom: 10px;
   }
   
   .project {
@@ -235,6 +248,7 @@
   }
   
   .project-text .text-content {
+    margin-right: 10px;
     position: static;
   }
   
@@ -292,10 +306,58 @@
   .project .project-image {
     width: 280px;
     height: 200px;
+    
+    /* position: absolute;
+    left: 0px;
+    right: 0px; */
+    /* height: 200px; */
+    /* overflow-y: auto; */
+    
     /* overflow: visible; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
+  
+  }
+}
+
+/* IPAD */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1000px) {
+  .project .project-image {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .project {
+    width: 500px;
+  }
+  
+  .project-text {
+    width: 480px;
+    font-size: 28px;
+  }
+  
+  
+  .text-content h3 {
+    font-size: 20px;
+  }
+  
+  .text-content h2 {
+    font-size: 28px;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+  }
+  
+  .project-text .project-links,
+  .result-design-fiction .project-links {
+    font-size: 20px;
+  }
+
+  
+  .project-carousel {
+    width: 500px;
   }
 }

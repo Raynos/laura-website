@@ -36,7 +36,22 @@ TODO:
 
 TODO 2:
 
- - Homepagina images smaller [?]
- - Mobile, project pagina ontwerp aanpassen
+ - Homepagina images smaller [y]
+ - Mobile, project pagina ontwerp aanpassen [y]
  - Feed pagina, moet gedaan voor mobile.
  - FTP details zonder whitelist.
+ - 
+ 
+
+Aanpassingen mobiel
+
+- Logo 20% kleiner op alle pagina's [y]
+- Kruisje 25% kleiner op projectpagina's [y]
+- Afbeeldingen projectpagina's uitvullen over de breedte van de pagina.
+- puntjes weghalen [y]
+- koptekt van project uitlijnen met bovenkant kruisje [y]
+- Footer: "About us & what we do" dichter bij contact iconen. Ongeveer 1 witregel uitgaande van tekstgrootte "about us & what we do".
+ 
+
+
+

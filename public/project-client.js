@@ -17,7 +17,21 @@ var PAGES = {
   alice: true
 }
 
+var pageWidth = $(window).width();
+var MODE = 'desktop';
+
+if (pageWidth >= 320 && pageWidth < 768) {
+  MODE = 'phone';
+} else if (pageWidth >= 768 && pageWidth < 1000) {
+  MODE = 'tablet';
+}
+
 $(function() {
+  var showDots =
+    MODE === 'desktop' ? true :
+    MODE === 'phone' ? false :
+    false;
+  
   // per project carousel.
   $(".project-carousel").slick({
     slidesToShow: 1,
@@ -30,7 +44,7 @@ $(function() {
     cssEase: 'linear',
     pauseOnHover: false,
     slidesToScroll: 1,
-    dots: true,
+    dots: showDots,
     arrows: false
   })
   
@@ -81,7 +95,11 @@ function preLoadImages () {
     
     "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_100.png",
     "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_50.png",
-    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_0.png"
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace_M_0.png",
+    
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_100.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_50.png",
+    "https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_0.png"
     
     
   ];
