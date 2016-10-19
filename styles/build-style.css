@@ -238,7 +238,7 @@
   .animating-text-visible ul li {
     line-height: 90px;
   }
-};
+}
 /*
  ******** WHAT WE DO ********
  */
@@ -337,7 +337,7 @@
   .head-line {
     font-size: 48px;
   }
-};
+}
 /*
  ******** ABOUT *************
  */
@@ -620,7 +620,7 @@
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1_Laura_Wessel_Deviate_Design.png");
     background-size: contain;
   }
-};
+}
 @font-face {
   font-family: 'CircularStd-Book';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Book.woff') format('woff');
@@ -645,7 +645,7 @@
   font-family: 'MetroNovaPro-Regular';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Regular.woff') format('woff');
 }
-;
+
 
 /*
  **************** LOGO HEADER *************************
@@ -671,7 +671,7 @@
   margin-bottom: 5px;
 }
 
-};
+}
 /*
  ******** PROJECT ***************
  */
@@ -1034,7 +1034,7 @@
   .project-carousel {
     width: 500px;
   }
-};
+}
 /*
  ******** FEED PAGE ********
  */
@@ -1368,7 +1368,7 @@ margin-left: -730px; */
   .results-actual-image {
     width: 270px;
   }
-};
+}
 
 /*
  ****************** IMG SLIDE ***************
@@ -1462,7 +1462,7 @@ margin-left: -730px; */
   .img-slide {
     background-size: auto;
   }
-};
+}
 .footer {
   /* margin-top: 30px; */
   margin-bottom: 30px;
@@ -1689,7 +1689,7 @@ margin-left: -730px; */
   .icons-wrapper, .page-link {
     font-size: 20px;
   }
-};
+}
 
 body, html {
   font-family: helvetica, arial, sans-serif;
