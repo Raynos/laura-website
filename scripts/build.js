@@ -52,21 +52,22 @@ function preprocess(templateStr) {
         .replace(/next: '\/([^']+)'/g, replaceNext);
 
     function replaceFunc(x, p1) {
-        if (p1 === '/') {
-            return 'href="./"';
+        if (p1 === '/' || p1 === '') {
+            // return 'href="./"';
+            return x;
         } else if (p1 === '#') {
             return x;
         } else if (p1[0] === '?') {
             // console.log('---', p1);
 
-            var str = 'href="./' + p1 + '"';
+            // var str = 'href="./' + p1 + '"';
             // console.log('---', str);
-            return str;
+            return x;
         }
 
-        if (p1[0] === '/') {
-            p1 = p1.substr(1);
-        }
+        // if (p1[0] === '/') {
+        //     p1 = p1.substr(1);
+        // }
 
         // console.log('fff', p1);
 
