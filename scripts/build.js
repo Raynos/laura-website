@@ -23,26 +23,46 @@ var ROUTING_MAP = {
     'alice-in-wonderland.html': 'alice.ejs'
 };
 
-var fileNames = Object.keys(ROUTING_MAP);
-for (var i = 0; i < fileNames.length; i++) {
-    var fileName = fileNames[i];
-    var templateName = path.join(
-        TEMPLATE_FOLDER, ROUTING_MAP[fileName]
-    );
+var CSS_FOLDER = path.join(__dirname, '..', 'static', 'styles');
 
-    var templateStr = fs.readFileSync(templateName, 'utf8');
-    templateStr = preprocess(templateStr);
+function buildTemplates() {
+    var fileNames = Object.keys(ROUTING_MAP);
+    for (var i = 0; i < fileNames.length; i++) {
+        var fileName = fileNames[i];
+        var templateName = path.join(
+            TEMPLATE_FOLDER, ROUTING_MAP[fileName]
+        );
+
+        var templateStr = fs.readFileSync(templateName, 'utf8');
+        templateStr = preprocess(templateStr);
 
 
-    var htmlStr = ejs.render(templateStr, {}, {
-        filename: templateName
-    });
+        var htmlStr = ejs.render(templateStr, {}, {
+            filename: templateName
+        });
 
-    fs.writeFileSync(
-        path.join(OUT_FOLDER, fileName),
-        htmlStr,
-        'utf8'
-    );
+        htmlStr = postprocess(htmlStr);
+
+        fs.writeFileSync(
+            path.join(OUT_FOLDER, fileName),
+            htmlStr,
+            'utf8'
+        );
+    }
+}
+
+function postprocess(htmlStr) {
+    return htmlStr
+        .replace(/href="([\w\/]+)\.css"/g, replaceCSS);
+
+    function replaceCSS(x, p1) {
+        if (p1 === 'styles/style') {
+
+            return 'href="styles/build-style.css"';
+        }
+
+        return x;
+    }
 }
 
 function preprocess(templateStr) {
@@ -84,14 +104,41 @@ function preprocess(templateStr) {
     }
 }
 
-console.log('templates build');
+function buildCSS() {
+    var styleFileName = path.join(CSS_FOLDER, 'style.css');
 
-cpr(
-    path.join(__dirname, '..', 'public'),
-    path.join(__dirname, '..', 'static'),
-    onCopy
-);
+    var styleText = fs.readFileSync(styleFileName, 'utf8');
 
-function onCopy() {
-    console.log('copy complete');
+    styleText = styleText
+        .replace(/\@import url\("([\w-\.]+)"\)/g, replaceImport);
+
+    var buildFileName = path.join(CSS_FOLDER, 'build-style.css');
+
+    fs.writeFileSync(buildFileName, styleText, 'utf8');
+
+    function replaceImport(x, p1) {
+        var contentFilename = path.join(CSS_FOLDER, p1);
+        var contentText = fs.readFileSync(contentFilename, 'utf8');
+
+        return contentText;
+    }
 }
+
+function main() {
+    buildCSS();
+    console.log('css build');
+    buildTemplates();
+    console.log('templates build');
+
+    cpr(
+        path.join(__dirname, '..', 'public'),
+        path.join(__dirname, '..', 'static'),
+        onCopy
+    );
+
+    function onCopy() {
+        console.log('copy complete');
+    }
+}
+
+main();
