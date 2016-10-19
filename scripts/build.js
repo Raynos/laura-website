@@ -23,7 +23,8 @@ var ROUTING_MAP = {
     'alice-in-wonderland.html': 'alice.ejs'
 };
 
-var CSS_FOLDER = path.join(__dirname, '..', 'static', 'styles');
+var CSS_FOLDER = path.join(__dirname, '..', 'public', 'styles');
+var OUT_CSS_FOLDER = path.join(__dirname, '..', 'static', 'styles');
 
 function buildTemplates() {
     var fileNames = Object.keys(ROUTING_MAP);
@@ -112,7 +113,7 @@ function buildCSS() {
     styleText = styleText
         .replace(/\@import url\("([\w-\.]+)"\)/g, replaceImport);
 
-    var buildFileName = path.join(CSS_FOLDER, 'build-style.css');
+    var buildFileName = path.join(OUT_CSS_FOLDER, 'build-style.css');
 
     fs.writeFileSync(buildFileName, styleText, 'utf8');
 
@@ -125,11 +126,6 @@ function buildCSS() {
 }
 
 function main() {
-    buildCSS();
-    console.log('css build');
-    buildTemplates();
-    console.log('templates build');
-
     cpr(
         path.join(__dirname, '..', 'public'),
         path.join(__dirname, '..', 'static'),
@@ -138,6 +134,11 @@ function main() {
 
     function onCopy() {
         console.log('copy complete');
+
+        buildCSS();
+        console.log('css build');
+        buildTemplates();
+        console.log('templates build');
     }
 }
 
