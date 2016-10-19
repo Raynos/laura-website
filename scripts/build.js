@@ -111,7 +111,7 @@ function buildCSS() {
     var styleText = fs.readFileSync(styleFileName, 'utf8');
 
     styleText = styleText
-        .replace(/\@import url\("([\w-\.]+)"\)/g, replaceImport);
+        .replace(/\@import url\("([\w-\.]+)"\);/g, replaceImport);
 
     var buildFileName = path.join(OUT_CSS_FOLDER, 'build-style.css');
 
