@@ -55,3 +55,7 @@ Aanpassingen mobiel
 
 
 
+TODO 3:
+
+ - Favicon
+ - DNS login / godaddy login details, set up ANAME record
