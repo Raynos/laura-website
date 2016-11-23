@@ -9,8 +9,10 @@ static:
 	./node_modules/.bin/static-server ./static
 
 upload:
+	git checkout master
 	git fetch --all
 	git merge origin/hyperdev
+	git push origin master
 	git checkout gh-pages
 	git rebase origin/master
 	make clean
