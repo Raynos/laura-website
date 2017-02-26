@@ -40,7 +40,7 @@
   
   font-size: 20px;
   color: #fcc800;
-  font-family: 'MetroNovaPro-Regular';
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 @media screen and ( min-height: 900px ){
@@ -65,7 +65,8 @@
   
   color: #fcc800;
   font-size: 50px;
-  font-family: 'CircularStd-Bold';
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
 @media screen and ( min-height: 900px ){
@@ -83,7 +84,8 @@
 }
 
 .wessel {
-  font-family: 'MetroNovaPro-Bold';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
   font-size: 15px;
   float: left;
   width: 300px;
@@ -91,7 +93,8 @@
 }
 
 .laura {
-  font-family: 'MetroNovaPro-Bold';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
   font-size: 15px;
   float: left;
   width: 300px;
@@ -99,7 +102,8 @@
 }
 
 .university {
-  font-family: 'CircularStd-BookItalic';
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   font-size: 11px;
   float: left;
   width: 100%;
@@ -109,7 +113,8 @@
 }
 
 .birth-place {
-  font-family: 'CircularStd-BookItalic';
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   font-size: 11px;
   float: left;
   width: 100%;
@@ -119,7 +124,8 @@
 }
 
 .hobbies {
-  font-family: 'CircularStd-BookItalic';
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   font-size: 11px;
   float: left;
   width: 100%;
@@ -156,7 +162,7 @@
 }
 
 .icons {
-  font-family: 'MetroNovaPro-Regular';
+  font-family: 'Josefin Sans', sans-serif;;
   font-size: 15px;
   float: left;
   width: 100px;
@@ -203,7 +209,8 @@
   }
   
   .person-and {
-    font-family: 'CircularStd-BookItalic';
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
     font-size: 28px;
     margin-top: 20px;
     margin-left: auto;

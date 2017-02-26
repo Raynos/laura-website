@@ -18,7 +18,8 @@
   color: #5dcfb6;
   font-size: 14px;
   letter-spacing: 0.07em;
-  font-family: 'MetroNovaPro-Bold';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
   border-bottom: 3px solid #5dcfb6;
   margin-left: 10px;
   margin-right: 10px;
@@ -41,7 +42,7 @@
   display: block;
   font-size: 14px;
   letter-spacing: 0.07em;
-  font-family: 'CircularStd-Book';
+  font-family: 'Lato', sans-serif;
   color: #5dcfb6;
   width: 350px;
 }
