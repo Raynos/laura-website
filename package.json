@@ -27,9 +27,5 @@
 		"hyperdev",
 		"express"
 	],
-	"license": "MIT",
-	"devDependencies": {
-		"cpr": "^2.0.0",
-		"static-server": "^2.0.3"
-	}
+	"license": "MIT"
 }

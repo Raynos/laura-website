@@ -92,21 +92,21 @@ margin-left: -730px; */
 
 .feed-text p {
   font-size: 12px;
-  font-family: 'CircularStd-Book';
-  color: 5dcfb6;
+  font-family: 'Lato', sans-serif;
+  color: #5dcfb6;
   line-height: 18px;
 }
   
 .feed-text h2 {
   font-size: 20px;
-  color: 5dcfb6;
-  font-family: 'MetroNovaPro-Regular';
+  color: #5dcfb6;
+  font-family: 'Josefin Sans', sans-serif;;
 
 }
 
 .next-feed-link {
   font-size: 12px;
-  font-family: 'CircularStd-Book';
+  font-family: 'Lato', sans-serif;
   color: #fcc800;
 }
 
@@ -197,7 +197,8 @@ margin-left: -730px; */
 
 .yellow-text {
   font-size: 12px;
-  font-family: 'CircularStd-BookItalic';
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   color: #fcc800;
   line-height: 17px;
 }

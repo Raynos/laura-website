@@ -1,24 +1,46 @@
+
+
+
+/* 
+
+font-family: 'Lato', sans-serif;
+
 @font-face {
   font-family: 'CircularStd-Book';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Book.woff') format('woff');
 }
+
+font-family: 'Lato', sans-serif;
+font-weight: 700
 
 @font-face {
   font-family: 'CircularStd-Bold';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-Bold.woff') format('woff');
 }
 
+font-family: 'Lato', sans-serif;
+font-style: italic;
+
 @font-face {
   font-family: 'CircularStd-BookItalic';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FCircularStd-BookItalic.woff') format('woff');
-}
+} */
+
+/*
+
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 700;
 
 @font-face {
   font-family: 'MetroNovaPro-Bold';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Bold.woff') format('woff');
 }
 
+
+font-family: 'Josefin Sans', sans-serif;
+
 @font-face {
   font-family: 'MetroNovaPro-Regular';
   src: url('https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNovaPro-Regular.woff') format('woff');
 }
+ */

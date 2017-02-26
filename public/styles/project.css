@@ -103,7 +103,8 @@
 .project-text .project-links,
 .result-design-fiction .project-links {
   font-size: 12px;
-  font-family: 'CircularStd-BookItalic';
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
   color: #337063;
   position: absolute;
   bottom: 15px;
@@ -164,7 +165,8 @@
 }
 
 .text-content i {
-  font-family: 'CircularStd-BookItalic';
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
 }
 
 .text-content h3 {
@@ -175,14 +177,15 @@
 
 .text-content h2 {
   font-size: 20px;
-  font-family: 'MetroNovaPro-Bold';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
   margin-top: 4px;
   margin-bottom: 6px;
 }
 
 .text-content p {
   font-size: 12px;
-  font-family: 'CircularStd-Book';
+  font-family: 'Lato', sans-serif;
 }
 
 .mobile.close-project {
