@@ -164,7 +164,18 @@ $(function() {
   
   setupActiveImageClass();
   manageActivePage();
+  setupModal();
 });
+
+function setupModal() {
+  var modalVisible = false;
+  
+  console.log('add click boi');
+  $(".project-image").on("click", function () {
+    modalVisible = true;
+    $(".project-modal").show();
+  })
+}
 
 function setupActiveImageClass() {
   $(".carousel").on("beforeChange", function (ev, slick, currentIndex, nextIndex) {

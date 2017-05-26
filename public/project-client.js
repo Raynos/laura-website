@@ -49,8 +49,54 @@ $(function() {
   })
   
   // manageActivePage();
+  setupModal();
   
 });
+
+var POSSIBLE_IMAGES = [
+  'zero-image',
+  'first-image',
+  'second-image',
+  'third-image',
+  'fourth-image',
+  'fifth-image',
+  'sixth-image',
+  'seventh-image',
+  'eight-image',
+  'ninth-image',
+  'tenth-image',
+  'eleventh-image'
+];
+
+function setupModal() {
+  var modalVisible = false;
+  var currentClass = '';
+  
+  $(".project-image").on("click", function () {
+    modalVisible = true;
+    
+    var classes = $(this).attr('class').split(/\s+/);
+    for (var i = 0; i < POSSIBLE_IMAGES.length; i++) {
+      var hasClass = classes.indexOf(POSSIBLE_IMAGES[i]);
+      if (hasClass >= 0) {
+        currentClass = POSSIBLE_IMAGES[i];
+        $(".project-modal-image").addClass(currentClass);
+        break;
+      }
+    }
+    
+    var height = $(window).height();
+    $(".project-modal-image").height(height - 190 - 50);
+    
+    $(".project-modal").show();
+  })
+  $(".project-modal").on("click", function () {
+    modalVisible = false;
+    $(".project-modal").hide();
+    $(".project-modal-image").removeClass(currentClass);
+    currentClass = '';
+  })
+}
 
 function preLoadImages () {
   var imageUrls = [

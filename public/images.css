@@ -185,6 +185,26 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_North_Sea_Jazz_Poster_Deviate_Design.png");
 }
 
+.nsj-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F1_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915402451");
+}
+
+.nsj-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F2_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915398562");
+}
+
+.nsj-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F3_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915402000");
+}
+
+.nsj-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F4_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915400418")
+}
+
+.nsj-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F5_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915398338")
+}
+
 .metro {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNova3.png");
 }
