@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-modal">
+      <div class="project-modal-image-wrapper">
+        <div class="project-modal-image bionews-modal-image">
+        </div>
+      </div>
+      <div class="desktop close-modal">
+        <div class="close-button-wrapper">
+          <div class="close-button">
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="project-main">
+      <div class="project active-project bionews-project">
+        <div class="desktop close-project"><a href="/?project=bionews"><div class="close-button"></div></a></div>
+        <div class="project-carousel bionews-carousel">
+         <div class="project-slide"><div class="project-image bionews-image first-image"></div></div>
+      
+        </div>
+        <div class="mobile close-project"><a href="/?project=bionews"><div class="close-button"></div></a></div>
+        <div class="project-text bionews-text">
+          <div class="text-content">
+            
+            
+            <h2> BIONEWS ONLINE <br> NEWSLETTER</h2>
+            <p>We redesigned the Dutch Carribean Nature Alliance's monthly newsletter, specifically for online reading with the use of interactive features. 
+            To view more please visit: <a href="http://www.dcnanature.org/latest-bionews/">http://www.dcnanature.org/latest-bionews/</a>. Please download the issue and view in Adobe Acrobat for best results. 
+            
+            </p>
+          </div>
+          
+          
+          <%- include('../project-links', {
+            prev: '/alice-in-wonderland',
+            next: '/2001-a-space-odyssey'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

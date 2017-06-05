@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-modal">
+      <div class="project-modal-image-wrapper">
+        <div class="project-modal-image seascouts-modal-image">
+        </div>
+      </div>
+      <div class="desktop close-modal">
+        <div class="close-button-wrapper">
+          <div class="close-button">
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="project-main">
+      <div class="project active-project seascouts-project">
+        <div class="desktop close-project"><a href="/?project=seascouts><div class="close-button"></div></a></div>
+        <div class="project-carousel seascouts-carousel">
+         <div class="project-slide"><div class="project-image seascouts-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image seascouts-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image seascouts-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image seascouts-image fourth-image"></div></div>
+        </div>
+        <div class="mobile close-project"><a href="/?project=seascouts"><div class="close-button"></div></a></div>
+        <div class="project-text seascouts-text">
+          <div class="text-content">
+            
+            
+            <h2> SABA SEA SCOUTS <br> <
+            <h3> Brand Identity</h3>
+          
+            <p>
+            
+           A Brand Identity which we designed for Saba Sea Scouts, a marine-protection based youth group who now carry a proud emblem bringing sea and land together.
+            
+            </p>
+          </div>
+          
+          
+          <%- include('../project-links', {
+            prev: '/alice-in-wonderland',
+            next: '/2001-a-space-odyssey'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

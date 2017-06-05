@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-modal">
+      <div class="project-modal-image-wrapper">
+        <div class="project-modal-image homestyle-modal-image">
+        </div>
+      </div>
+      <div class="desktop close-modal">
+        <div class="close-button-wrapper">
+          <div class="close-button">
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="project-main">
+      <div class="project active-project homestyle-project">
+        <div class="desktop close-project"><a href="/?project=homestyle"><div class="close-button"></div></a></div>
+        <div class="project-carousel homestyle-carousel">
+         <div class="project-slide"><div class="project-image homestyle-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image homestyle-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image homestyle-image third-image"></div></div>
+          <div class="project-slide"><div class="project-image homestyle-image fourth-image"></div></div>
+          <div class="project-slide"><div class="project-image homestyle-image fifth-image"></div></div>
+        </div>
+        <div class="mobile close-project"><a href="/?project=homestyle"><div class="close-button"></div></a></div>
+        <div class="project-text homestyle-text">
+          <div class="text-content">
+            
+            
+            <h2> HOMESTYLE <br> 
+            <h3> Facebook Marketing </h3>
+          
+            <p>
+            
+            Deviate design offers a service of maintaining and improving the quality of your Facebook pages. For example we produce weekly Facebook posts for HOMEStyle, from concept to finish (Idea - Photography - Editing - Copywriting - Publishing).
+Would you like to grow your page and provide your loyal and new followers with entertaining and useful content? Drop us an e-mail for more information regarding our services.
+            
+            </p>
+          </div>
+          
+          
+          <%- include('../project-links', {
+            prev: '/alice-in-wonderland',
+            next: '/2001-a-space-odyssey'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>
