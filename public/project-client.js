@@ -49,7 +49,7 @@ $(function() {
   })
   
   // manageActivePage();
-  setupModal();
+  // setupModal();
   
 });
 

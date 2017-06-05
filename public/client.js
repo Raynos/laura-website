@@ -163,8 +163,8 @@ $(function() {
   })
   
   setupActiveImageClass();
-  manageActivePage();
-  setupModal();
+  // manageActivePage();
+  // setupModal();
 });
 
 function setupModal() {

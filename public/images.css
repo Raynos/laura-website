@@ -181,7 +181,7 @@
 }
 
 .chromiumtech-modal-image.first-image {
-  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge-1-Chromium-Tech-Deviate-Design.png?1495916230942);
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge-1-Chromium-Tech-Deviate-Design.png?1495916230942");
 }
 
 
@@ -517,7 +517,7 @@
 .active-img .bionews {
   background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradients.png?1495917502441");
 }
-.active-img .bionewshover {
+.active-img .bionews:hover {
   background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews.png?1495917505751");
 }
 
@@ -601,7 +601,7 @@
 .reef-image.second-image {
   background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-2-s.png?1495917731084");
 }
-.reefimage.third-image {
+.reef-image.third-image {
   background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-3-s.png?1495917742472");
 }
 
