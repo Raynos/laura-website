@@ -124,7 +124,7 @@ var initialImage =
   0
 
 $(function() {
-  var projectName = getParameterByName('project') || 'nsj';
+  var projectName = getParameterByName('project') || 'bionews';
   
   var imgSlideElem = $('.img-slide.' + projectName);
   var imgAnchor = imgSlideElem.parent();
@@ -163,8 +163,19 @@ $(function() {
   })
   
   setupActiveImageClass();
-  manageActivePage();
+  // manageActivePage();
+  // setupModal();
 });
+
+function setupModal() {
+  var modalVisible = false;
+  
+  console.log('add click boi');
+  $(".project-image").on("click", function () {
+    modalVisible = true;
+    $(".project-modal").show();
+  })
+}
 
 function setupActiveImageClass() {
   $(".carousel").on("beforeChange", function (ev, slick, currentIndex, nextIndex) {
