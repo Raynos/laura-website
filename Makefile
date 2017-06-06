@@ -11,7 +11,7 @@ static:
 upload:
 	git checkout master
 	git fetch --all
-	git merge origin/gomix
+	git merge origin/glitch
 	git push origin master
 	git checkout gh-pages
 	git rebase origin/master
