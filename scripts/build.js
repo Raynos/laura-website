@@ -20,7 +20,12 @@ var ROUTING_MAP = {
     'metro-nova-type-specimen.html': 'metro.ejs',
     'logos.html': 'logos.ejs',
     '2001-a-space-odyssey.html': 'space.ejs',
-    'alice-in-wonderland.html': 'alice.ejs'
+    'alice-in-wonderland.html': 'alice.ejs',
+    'bionews-online-newsletter.html': 'bionews.ejs',
+    'eco-club.html': 'eco.ejs',
+    'reef-protectors.html': 'reef.ejs',
+    'saba-sea-scouts.html': 'seascouts.ejs',
+    'homestyle.html': 'homestyle.ejs'
 };
 
 var CSS_FOLDER = path.join(__dirname, '..', 'public', 'styles');
