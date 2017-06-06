@@ -73,6 +73,43 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F11Wayfare_11.png");
 }
 
+
+.wayfare-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_1.png?1495914833366");
+}
+.wayfare-modal-image.second-image {
+  background-image: url("hhttps://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_2.png?1495914853591");
+}
+.wayfare-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_3.png?1495914855579");
+}
+.wayfare-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_4.png?1495914860857");
+}
+.wayfare-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_5.png?1495914874731");
+}
+.wayfare-modal-image.sixth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_6.png?1495914912043");
+}
+.wayfare-modal-image.seventh-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_7.png?1495914893785");
+}
+.wayfare-modal-image.eight-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_8.png?1495914927957");
+}
+.wayfare-modal-image.nineth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_9.png?1495914927640");
+}
+.wayfare-modal-image.tenth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_10.png?1495915453505");
+}
+.wayfare-modal-image.eleventh-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLWayfare_11.png?1495915450913");
+}
+
+
+
 .stamps {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps.png");
 }
@@ -105,6 +142,25 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FStamps_6.png");
 }
 
+.stamps-modal-image.zero-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLStamps_1.png?1495916127650");
+}
+.stamps-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLStamps_2.png?1495916126399");
+}
+.stamps-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLStamps_3.png?1495916131615");
+}
+.stamps-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLStamps_4.png?1495916133475");
+}
+.stamps-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLStamps_5.png?1495916116350");
+}
+.stamps-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLStamps_6.png?1495916136427");
+}
+
 
 
 .chromium {
@@ -124,6 +180,9 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F1-Chromium-Tech-Deviate-Design.png");
 }
 
+.chromiumtech-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge-1-Chromium-Tech-Deviate-Design.png?1495916230942");
+}
 
 
 
@@ -152,6 +211,20 @@
 .oman-image.fourth-image {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_Discover_Oman_Deviate_Design.png");
 }
+
+.oman-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FOman_4.png?1495916271068");
+}
+.oman-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FOman_2.png?1495916283515");
+}
+.oman-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FOman3.png?1495916280296");
+}
+.oman-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FOman_1.png?1495916278169");
+}
+
 
 
 
@@ -185,6 +258,26 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F5_North_Sea_Jazz_Poster_Deviate_Design.png");
 }
 
+.nsj-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F1_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915402451");
+}
+
+.nsj-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F2_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915398562");
+}
+
+.nsj-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F3_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915402000");
+}
+
+.nsj-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F4_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915400418")
+}
+
+.nsj-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F5_Large_North_Sea_Jazz_Poster_Deviate_Design.png?1492915398338")
+}
+
 .metro {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FMetroNova3.png");
 }
@@ -212,6 +305,22 @@
 }
 .metro-image.fifth-image {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F6_Metro_Nova_Deviate_Design.png");
+}
+
+.metro-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F1_Large_Metro_Nova_Deviate_Design.png?1495916436368");
+}
+.metro-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F2_Large_Metro_Nova_Deviate_Design.png?1495916439948");
+}
+.metro-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F3_Large_Metro_Nova_Deviate_Design.png?1495916442142");
+}
+.metro-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F4_Large_Metro_Nova_Deviate_Design.png?1495916451022");
+}
+.metro-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F5__Large_Metro_Nova_Deviate_Design.png?1495916445976");
 }
 
 
@@ -256,6 +365,31 @@
 .logos-image.fourth-image {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F4_Hanneke-van-Oudheusden_Deviate_Design.png");
 }
+.logos-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Logos-Reef-Protectorss.png?1495916608833");
+}
+.logos-image.sixth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Logos-Saba-Sea-Scoutss.png?1495916608973");
+}
+
+.logos-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F1_Large_All-about-Mini_Deviate_Design.png?1495916742197");
+}
+.logos-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F2_Large_Mijn-Eerste-Tandarts_Deviate_Design.png?1495916742008");
+}
+.logos-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F3_Large_Discover-Oman_Deviate_Design.png?1495916743761");
+}
+.logos-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F4_Large_Hanneke-van-Oudheusden_Deviate_Design.png?1495916743557");
+}
+.logos-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Logos-Reef-Protectors.png?1495916613562");
+}
+.logos-modal-image.sixth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Logos-Saba-Sea-Scouts.png?1495916612510");
+}
 
 .alice {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FAlice-in-Wonderland%20GSHS.png");
@@ -295,6 +429,31 @@
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F8-Alice_in_Wonderland_Deviate_Design.png");
 }
 
+.alice-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_1_Alice_in_Wonderland_Deviate_Design.png?1495916907868");
+}
+.alice-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_2-Alice_in_Wonderland_Deviate_Designpng.png?1495916883525");
+}
+.alice-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_3_Alice_in_Wonderland_Deviate_Design.png?1495916943250");
+}
+.alice-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_4_Alice_in_Wonderland_Deviate_Design.png?1495916900176");
+}
+.alice-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_5_Alice_in_Wonderland_Deviate_Design.png?1495916930958");
+}
+.alice-modal-image.sixth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_6_Alice_in_Wonderland_Deviate_Design.png?1495916930939");
+}
+.alice-modal-image.seventh-image {
+  background-image: url("hhttps://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_7_Alice_in_Wonderland_Deviate_Design.png?1495916931260");
+}
+.alice-modal-image.eight-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FLarge_8_Alice_in_Wonderland_Deviate_Design.png?1495916895453");
+}
+
 .space {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FSpace-odyssey%20GSHS.png");
 }
@@ -327,6 +486,212 @@
 .space-image.sixth-image {
   background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2F6_A_Space_odyssey_Deviate_Design.png");
 }
+
+.space-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F1_Large_A_Space_odyssey_Deviate_Design.png?1495917067393");
+}
+.space-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F2_Large_A_Space_odyssey_Deviate_Design.png?1495917063275");
+}
+.space-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F3_Large_A_Space_odyssey_Deviate_Design.png?1495917069024");
+}
+.space-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F4_Large_A_Space_odyssey_Deviate_Design.png?1495917068532");
+}
+.space-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F5_Large_A_Space_odyssey_Deviate_Design.png?1495917066128");
+}
+.space-modal-image.sixth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2F6_Large_A_Space_odyssey_Deviate_Design.png?1495917069151");
+}
+
+
+
+.bionews {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradient.png?1495917496663");
+}
+.bionews:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradients.png?1495917502441");
+}
+.active-img .bionews {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradients.png?1495917502441");
+}
+.active-img .bionews:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews.png?1495917505751");
+}
+
+
+.bionews-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-1-s.png?1495917521075");
+}
+
+.bionews-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-1.png?1495917526500");
+}
+
+
+
+
+.homestyle {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1-gradient.png?1495917540875");
+}
+.homestyle:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1-hgradient.png?1495917545326");
+}
+.active-img .homestyle {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1-hgradient.png?1495917545326");
+}
+.active-img .homestyle:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1.png?1495917548287");
+}
+
+
+.homestyle-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-1-s.png?1495917556508");
+}
+.homestyle-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-2-s.png?1495917572583");
+}
+.homestyle-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-3-s.png?1495917582179");
+}
+.homestyle-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-4-s.png?1495917591345");
+}
+.homestyle-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-5-s.png?1495917599514");
+}
+
+.homestyle-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-1.png?1495917566885");
+}
+.homestyle-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-2.png?1495917579128");
+}
+.homestyle-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-3.png?1495917588090");
+}
+.homestyle-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-4.png?1495917596862");
+}
+.homestyle-modal-image.fifth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-HomeStyle-5.png?1495917612086");
+}
+
+
+
+.reef {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-gradient.png?1495917715233");
+}
+.reef:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-hgradient.png?1495917719362");
+}
+.active-img .reef {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-hgradient.png?1495917719362");
+}
+.active-img .reef:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors.png?1495917721254");
+}
+
+
+.reef-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-1-s.png?1495917725633");
+}
+.reef-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-2-s.png?1495917731084");
+}
+.reef-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-3-s.png?1495917742472");
+}
+
+
+.reef-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-1.png?1495917727868");
+}
+.reef-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-2.png?1495917739892");
+}
+.reef-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-3.png?1495917751317");
+}
+
+
+.seascouts {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-gradient.png?1495917780509");
+}
+.seascouts:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-hgradient.png?1495917782280");
+}
+.active-img .seascouts{
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-hgradient.png?1495917782280");
+}
+.active-img .seascouts:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts.png?1495917784814");
+}
+
+
+.seascouts-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-1s.png?1495917791294");
+}
+.seascouts-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-2s.png?1495917794690");
+}
+.seascouts-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-3s.png?1495917803790");
+}
+.seascouts-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-4s.png?1495917808251");
+}
+
+
+.seascouts-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-1.png?1495917788121");
+}
+.seascouts-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-2.png?1495917793238");
+}
+.seascouts-modal-image.third-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-3.png?1495917801319");
+}
+.seascouts-modal-image.fourth-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-4.png?1495917806698");
+}
+
+
+
+
+.eco {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-gradient.png?1495917824033");
+}
+.eco:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-gradients.png?1495917827542");
+}
+.active-img .eco{
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-gradients.png?1495917827542");
+}
+.active-img .eco:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club.png?1495917829268");
+}
+
+
+.eco-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-1s.gif?1495917840653");
+}
+.eco-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-2s.png?1495917846406");
+}
+
+
+.eco-modal-image.first-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-1.gif?1495917835761");
+}
+.eco-modal-image.second-image {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-2.png?1495917848732");
+}
+
+
+
 
 
 /* MOBILE */
@@ -430,5 +795,85 @@
   .active-img .oman:hover {
     background-image: url("https://cdn.hyperdev.com/us-east-1%3A7885faca-916f-4f32-bc68-fcbbc8befcc1%2FOman_M_0.png");
   }
+  
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+
+.bionews {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradient.png?1495917496663");
+}
+.bionews:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradients.png?1495917502441");
+}
+.active-img .bionews {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews-gradients.png?1495917502441");
+}
+.active-img .bionewshover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-DCNA-BioNews.png?1495917505751");
+  }
+  
+    @media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+
+  .homestyle {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1-gradient.png?1495917540875");
+}
+.homestyle:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1-hgradient.png?1495917545326");
+}
+.active-img .homestyle {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1-hgradient.png?1495917545326");
+}
+.active-img .homestyle:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FHomeStyle-Deviate-Design-1.png?1495917548287");
+}
+  
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+.reef {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-gradient.png?1495917715233");
+}
+.reef:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-hgradient.png?1495917719362");
+}
+.active-img .reef {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors-hgradient.png?1495917719362");
+}
+.active-img .reef:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Reef-Protectors.png?1495917721254");
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+
+   .seascouts {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-gradient.png?1495917780509");
+}
+.seascouts:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-hgradient.png?1495917782280");
+}
+.active-img .seascouts{
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts-hgradient.png?1495917782280");
+}
+.active-img .seascouts:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Saba-Sea-Scouts.png?1495917784814");
+}
+  
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 1000px) {
+    
+  
+.eco {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-gradient.png?1495917824033");
+}
+.eco:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-gradients.png?1495917827542");
+}
+.active-img .eco{
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club-gradients.png?1495917827542");
+}
+.active-img .eco:hover {
+  background-image: url("https://cdn.glitch.com/916fd358-a99d-429a-a460-339b046dccb2%2FDeviate-Design-Eco-Club.png?1495917829268");
+}
+
+  
+  
   
 }

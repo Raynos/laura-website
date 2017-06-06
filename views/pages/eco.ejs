@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-modal">
+      <div class="project-modal-image-wrapper">
+        <div class="project-modal-image eco-modal-image">
+        </div>
+      </div>
+      <div class="desktop close-modal">
+        <div class="close-button-wrapper">
+          <div class="close-button">
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="project-main">
+      <div class="project active-project eco-project">
+        <div class="desktop close-project"><a href="/?project=eco"><div class="close-button"></div></a></div>
+        <div class="project-carousel eco-carousel">
+         <div class="project-slide"><div class="project-image eco-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image eco-image second-image"></div></div>
+        </div>
+        <div class="mobile close-project"><a href="/?project=eco"><div class="close-button"></div></a></div>
+        <div class="project-text eco-text">
+          <div class="text-content">
+            
+            
+            <h2> ECO CLUB <br> </h2>
+            <h3> Foldable Infographic </h3>
+          
+            <p>
+            
+           We made a foldable infographic explaining the new youth program: Eco-Club, from The Department of Environment and Maritime Affairs (DEMA) in Turks and Caicos. 
+           The self-sustainable program teaches youth about biodiversity, protected areas, coral reefs and sea life!
+            
+            </p>
+          </div>
+          
+          
+          <%- include('../project-links', {
+            prev: '/bionews-online-newsletter',
+            next: '/homestyle'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

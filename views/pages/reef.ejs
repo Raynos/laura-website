@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../head') %>
+  <body>
+    <%- include('../header') %>
+
+    <div class="project-modal">
+      <div class="project-modal-image-wrapper">
+        <div class="project-modal-image reef-modal-image">
+        </div>
+      </div>
+      <div class="desktop close-modal">
+        <div class="close-button-wrapper">
+          <div class="close-button">
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="project-main">
+      <div class="project active-project reef-project">
+        <div class="desktop close-project"><a href="/?project=reef"><div class="close-button"></div></a></div>
+        <div class="project-carousel reef-carousel">
+         <div class="project-slide"><div class="project-image reef-image first-image"></div></div>
+          <div class="project-slide"><div class="project-image reef-image second-image"></div></div>
+          <div class="project-slide"><div class="project-image reef-image third-image"></div></div>
+        </div>
+        <div class="mobile close-project"><a href="/?project=reef"><div class="close-button"></div></a></div>
+        <div class="project-text reef-text">
+          <div class="text-content">
+            
+            
+            <h2> REEF PROTECTORS <br> </h2>
+            <h3> Brand Identity</h3>
+          
+            <p>
+            
+           A Brand Identity which we designed for Reef Protectors, a marine-protection based youth group from Belize.
+            
+            </p>
+          </div>
+          
+          
+          <%- include('../project-links', {
+            prev: '/homestyle',
+            next: '/saba-sea-scouts'
+          }) %>
+          
+          
+        </div>
+      </div>
+    </div> <!-- Deze div sluit de projecten af-->
+
+    <%- include('../project-footer') %>
+</body>
+</html>

@@ -15,57 +15,37 @@ app.use(express.static('public'));
 
 app.set('view engine', 'ejs');
 
-// http://expressjs.com/en/starter/basic-routing.html
-app.get("/", function (request, response) {
-  response.render('pages/index');
-});
+/*
+  TABLE USED FOR GLITCH.COM "Show demo"
+  
+  "{{URL ON WEBSITE}}": "{{pages/page-name}}"
+*/
+var PAGES = {
+  "/": "pages/index",
+  "/about": "pages/about",
+  "/what-we-do": "pages/what-we-do",
+  "/alice-in-wonderland": "pages/alice",
+  "/bionews-online-newsletter": "pages/bionews",
+  "/chromium-tech-trade-show-banner": "pages/chromium",
+  "/eco-club": "pages/eco",
+  "/feed": "pages/feed",
+  "/homestyle": "pages/homestyle",
+  "/logos": "pages/logos",
+  "/metro-nova-type-specimen": "pages/metro",
+  "/north-sea-jazz-poster": "pages/nsj",
+  "/discover-oman-identity": "pages/oman",
+  "/reef-protectors": "pages/reef",
+  "/saba-sea-scouts": "pages/seascouts",
+  "/2001-a-space-odyssey": "pages/space",
+  "/dutch-postage-stamps-booklet": "pages/stamps",
+  "/wayfare-magazine": "pages/wayfare"
+}
 
-app.get('/about', function (request, response) {
-  response.render('pages/about');
-});
-
-app.get('/what-we-do', function (request, response) {
-  response.render('pages/what-we-do');
-});
-
-app.get('/feed', function (request, response) {
-  response.render('pages/feed');
-});
-
-app.get('/wayfare-magazine', function (req, res) {
-  res.render('pages/wayfare');
-});
-
-app.get('/dutch-postage-stamps-booklet', function (req, res) {
-  res.render('pages/stamps');
-});
-
-app.get('/chromium-tech-trade-show-banner', function (req, res) {
-  res.render('pages/chromium');
-});
-
-app.get('/discover-oman-identity', function (req, res) {
-  res.render('pages/oman');
-});
-
-app.get('/north-sea-jazz-poster', function (req, res) {
-  res.render('pages/nsj');
-});
-
-app.get('/metro-nova-type-specimen', function (req, res) {
-  res.render('pages/metro');
-});
-
-app.get('/logos', function (req, res) {
-  res.render('pages/logos');
-});
-
-app.get('/2001-a-space-odyssey', function (req, res) {
-  res.render('pages/space');
-});
-
-app.get('/alice-in-wonderland', function (req, res) {
-  res.render('pages/alice');
+var keys = Object.keys(PAGES);
+keys.forEach(function (key) {
+  app.get(key, function (request, response) {
+    response.render(PAGES[key]);
+  });
 });
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
