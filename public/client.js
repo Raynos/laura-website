@@ -124,7 +124,7 @@ var initialImage =
   0
 
 $(function() {
-  var projectName = getParameterByName('project') || 'nsj';
+  var projectName = getParameterByName('project') || 'bionews';
   
   var imgSlideElem = $('.img-slide.' + projectName);
   var imgAnchor = imgSlideElem.parent();
